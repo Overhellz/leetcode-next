@@ -16,9 +16,11 @@
 
 ## Array / String
 
-| Level | Name                   | Link                                              | Retention |
-|:-----:|:-----------------------|:--------------------------------------------------|:----------|
-| Easy  | 88. Merge Sorted Array | https://leetcode.com/problems/merge-sorted-array/ | 5         |
+| Level | Name                                    | Link                                                               | Retention |
+|:-----:|:----------------------------------------|:-------------------------------------------------------------------|:----------|
+| Easy  | 88. Merge Sorted Array                  | https://leetcode.com/problems/merge-sorted-array/                  | 5         |
+| Easy  | 27. Remove Element                      | https://leetcode.com/problems/remove-element/                      | 5         |
+| Easy  | 26. Remove Duplicates from Sorted Array | https://leetcode.com/problems/remove-duplicates-from-sorted-array/ | 5         |
 
 ---
 
@@ -78,21 +80,9 @@ Big O - это оценка алгоритма при худшем случае.
 последовательности операций несмотря на то, что отдельные операции могут быть дорогими, можно посчитать, но большинство
 операций дешевые.
 
-* Big O Cheatsheet https://www.bigocheatsheet.com/
-
-| Level | Name       | Link                                   | Status | Repeatable |
-|:-----:|:-----------|:---------------------------------------|:------:|:----------:|
-| Easy  | 1. Two Sum | https://leetcode.com/problems/two-sum/ |  Done  |            |
-
 ---
 
 # 1. Two Pointers (Два указателя)
-
-3 типа задач:
-
-* Указатели в начале и в конце.
-* Указатели в начале, первый указатель бежит быстрее второго указателя.
-* Указатели бегут параллельно в разных массивах.
 
 | Level  | Name                                    | Link                                                               | Done | Repeatable |
 |:------:|:----------------------------------------|:-------------------------------------------------------------------|:----:|:----------:|
@@ -102,11 +92,9 @@ Big O - это оценка алгоритма при худшем случае.
 | Medium | 15. 3Sum                                | https://leetcode.com/problems/3sum/                                | Done |            |
 |  Easy  | 977. Squares of a Sorted Array          | https://leetcode.com/problems/squares-of-a-sorted-array/           | Done |            |
 | Medium | 11. Container With Most Water           | https://leetcode.com/problems/container-with-most-water/           | Done |     *      |
-|  Easy  | 26. Remove Duplicates from Sorted Array | https://leetcode.com/problems/remove-duplicates-from-sorted-array/ | Done |            |
 |  Easy  | 283.Move Zeroes                         | https://leetcode.com/problems/move-zeroes/                         | Done |            |
 |  Easy  | 392. Is Subsequence                     | https://leetcode.com/problems/is-subsequence/                      | Done |     *      |
 |  Easy  | 844. Backspace String Compare           | https://leetcode.com/problems/backspace-string-compare/            | Done |            |
-|  Easy  | 88. Merge Sorted Array                  | https://leetcode.com/problems/merge-sorted-array/                  | Done |            |
 
 ---
 
@@ -648,9 +636,7 @@ https://github.com/Overhellz/multitrack
 |:------:|:----------------------------------------|:-------------------------------------------------------------------|:----------|
 |  Easy  | 344. Reverse String                     | https://leetcode.com/problems/reverse-string/                      | 5         |
 |  Easy  | 125. Valid Palindrome                   | https://leetcode.com/problems/valid-palindrome/                    | 4         |
-|  Easy  | 26. Remove Duplicates from Sorted Array | https://leetcode.com/problems/remove-duplicates-from-sorted-array/ | 5         |
 |  Easy  | 283. Move Zeroes                        | https://leetcode.com/problems/move-zeroes/                         | 4         |
-|  Easy  | 88. Merge Sorted Array                  | https://leetcode.com/problems/merge-sorted-array/                  | 4         |
 | Medium | 167. Two Sum II - Input Array Is Sorted | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/    | 4         |
 | Medium | 15. 3Sum                                | https://leetcode.com/problems/3sum/                                | 4         |
 | Medium | 18. 4Sum                                | https://leetcode.com/problems/4sum/                                | 4         |
@@ -1031,14 +1017,12 @@ Characters,Medium,38.5%,87.5%
 21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.9%,62.5%
 22,https://leetcode.com/problems/generate-parentheses,Generate Parentheses,Medium,78.2%,50.0%
 23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,58.8%,50.0%
-27,https://leetcode.com/problems/remove-element,Remove Element,Easy,61.3%,37.5%
 33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,44.1%,50.0%
 42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.8%,62.5%
 49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.2%,62.5%
 56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,75.0%
 71,https://leetcode.com/problems/simplify-path,Simplify Path,Medium,50.0%,50.0%
 76,https://leetcode.com/problems/minimum-window-substring,Minimum Window Substring,Hard,46.9%,50.0%
-88,https://leetcode.com/problems/merge-sorted-array,Merge Sorted Array,Easy,54.4%,62.5%
 98,https://leetcode.com/problems/validate-binary-search-tree,Validate Binary Search Tree,Medium,35.3%,37.5%
 101,https://leetcode.com/problems/symmetric-tree,Symmetric Tree,Easy,60.7%,50.0%
 103,https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal,Binary Tree Zigzag Level Order
@@ -1126,8 +1110,6 @@ Increasing or Strictly Decreasing Subarray,Easy,64.9%,75.0%
 17,https://leetcode.com/problems/letter-combinations-of-a-phone-number,Letter Combinations of a Phone
 Number,Medium,65.5%,37.5%
 227,https://leetcode.com/problems/basic-calculator-ii,Basic Calculator II,Medium,46.6%,50.0%
-26,https://leetcode.com/problems/remove-duplicates-from-sorted-array,Remove Duplicates from Sorted
-Array,Easy,62.2%,37.5%
 18,https://leetcode.com/problems/4sum,4Sum,Medium,40.0%,37.5%
 322,https://leetcode.com/problems/coin-change,Coin Change,Medium,47.9%,37.5%
 2841,https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray,Maximum Sum of Almost Unique
@@ -1185,7 +1167,7 @@ Continuous Subarray With Absolute Diff Less Than or Equal to Limit,Medium,57.3%,
 Тема ID недостающих задач
 Hash Map 146, 205, 349, 350, 380, 387, 652, 771, 1436
 Binary Search 4, 33
-Two Pointers 27, 42, 167, 283, 392, 680, 977
+Two Pointers 42, 167, 283, 392, 680, 977
 Sliding Window 340, 395, 485, 487
 Prefix Sum 523
 Intervals 986
@@ -1281,8 +1263,6 @@ Backtracking 17, 22
 12. Two Pointers (дополнительные — уже есть в вашей теме, но не вошли)
     ID Название Уровень Частота
     18 4Sum Medium 37.5%
-    26 Remove Duplicates Easy 37.5%
-    27 Remove Element Easy 37.5%
     42 Trapping Rain Water Hard 62.5%
     125 Valid Palindrome Easy 75%
     167 Two Sum II Medium 37.5%
@@ -1315,57 +1295,20 @@ Graph BFS/DFS — 200, 994
 
 
 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----------------------------------------------
----------------------------------------------
----------------------------------------------
----------------------------------------------
----------------------------------------------
----------------------------------------------
----------------------------------------------
----------------------------------------------
----------------------------------------------
----------------------------------------------
----------------------------------------------
----------------------------------------------
----------------------------------------------
----------------------------------------------
----------------------------------------------
----------------------------------------------
----------------------------------------------
----------------------------------------------
----------------------------------------------
 
 
 
 Тема ID задач
-Array 1, 4, 11, 26, 27, 33, 35, 42, 53, 56, 74, 88, 121, 153, 167, 169, 200, 209, 228, 238, 283, 300, 322, 349, 350,
+Array 1, 4, 11, 33, 35, 42, 53, 56, 74, 121, 153, 167, 169, 200, 209, 228, 238, 283, 300, 322, 349, 350,
 380, 485, 560, 605, 643, 674, 849, 881, 896, 977, 1679, 1868, 2215, 2570, 2956, 2006
 Hash Table 1, 49, 136, 169, 205, 242, 347, 349, 350, 380, 387, 438, 523, 560, 652, 771, 1436, 1656, 1679, 2043, 2215,
 2657, 2956, 2006
 String 3, 5, 13, 17, 20, 22, 49, 68, 71, 76, 125, 161, 205, 227, 242, 332, 340, 387, 392, 395, 415, 424, 438, 443, 567,
 680, 771
 Sliding Window 3, 76, 209, 340, 395, 424, 438, 485, 487, 567, 643, 1004, 1438, 1493, 2743, 2841
-Two Pointers 11, 18, 19, 26, 27, 42, 88, 125, 141, 167, 234, 283, 392, 443, 567, 680, 881, 986, 1679
+Two Pointers 11, 18, 19, 42, 125, 141, 167, 234, 283, 392, 443, 567, 680, 881, 986, 1679
 Binary Search 33, 35, 74, 153, 167, 220, 300, 349, 350, 658
 Linked List 2, 19, 21, 23, 24, 141, 146, 206, 234
 Tree / DFS / BFS 98, 101, 102, 103, 110, 124, 199, 235, 236, 652, 938, 994, 1650
@@ -1375,9 +1318,7 @@ Math 7, 9, 13, 415, 470
 Backtracking 17, 22
 Dynamic Programming 53, 279, 300, 322, 392, 674
 Design 146, 155, 232, 341, 362, 380, 933, 1656, 2043, 2241, 2627, 2629, 2665, 2666, 2667
-Sorting 49, 56, 88, 169, 242, 347, 349, 350, 977
+Sorting 49, 56, 169, 242, 347, 349, 350, 977
 Greedy 11, 55, 121, 1679
 Matrix 74, 1572
 SQL 181
-
-
