@@ -1,0 +1,49 @@
+## Блок 0: Базовые паттерны
+[ ] 1.  Array / Hash Table
+[ ] 2.  Two Pointers
+[ ] 3.  Fast & Slow Pointers                 
+[ ] 4.  Prefix Sum
+[ ] 5.  Sliding Window
+[ ] 6.  Binary Search
+[ ] 7.  Modified Binary Search               
+
+## Блок 1: Линейные структуры
+[ ] 8.  Linked List Basics
+[ ] 9.  In-place Reversal Linked List        
+[ ] 10. Stack / Queue
+[ ] 11. Monotonic Stack
+[ ] 12. Bit Manipulation
+
+## Блок 2: Массивы и матрицы
+[ ] 13. Cyclic Sort                          
+[ ] 14. Matrix / 2D Array
+[ ] 15. Intervals
+
+## Блок 3: Деревья
+[ ] 16. Recursion Basics
+[ ] 17. Binary Tree (DFS)
+[ ] 18. Binary Tree (BFS)
+[ ] 19. Binary Search Tree
+[ ] 20. Trie (Prefix Tree)                   
+
+## Блок 4: Heap и перебор
+[ ] 21. Heap / Priority Queue
+[ ] 22. Top K Elements                       
+[ ] 23. Two Heaps                            
+[ ] 24. Subsets Pattern                      
+[ ] 25. Backtracking
+[ ] 26. Greedy
+
+## Блок 5: Графы
+[ ] 27. Graph (DFS / BFS)
+[ ] 28. Topological Sort
+[ ] 29. Bipartite Graph
+[ ] 30. Union Find (DSU)
+[ ] 31. Dijkstra
+
+## Блок 6: Динамическое программирование
+[ ] 32. 1D DP
+[ ] 33. 2D DP
+[ ] 34. LCS / Edit Distance
+[ ] 35. Bitmask DP
+
