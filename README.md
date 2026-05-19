@@ -12,28 +12,6 @@
 
 ---
 
-# Fundamentals
-
-## Array / String
-
-| Level | Name                                    | Link                                                               | Retention |
-|:-----:|:----------------------------------------|:-------------------------------------------------------------------|:----------|
-| Easy  | 88. Merge Sorted Array                  | https://leetcode.com/problems/merge-sorted-array/                  | 5         |
-| Easy  | 27. Remove Element                      | https://leetcode.com/problems/remove-element/                      | 5         |
-| Easy  | 26. Remove Duplicates from Sorted Array | https://leetcode.com/problems/remove-duplicates-from-sorted-array/ | 5         |
-
----
-
-Plan:
-
-- Ten
-- multitrack
-- leetcode-yandex
-- yandex all
-- badges 150
-- badges 100
-- badges 75
-
 # Leetcode Badges
 
 ## Top Interview 150
@@ -50,18 +28,62 @@ https://leetcode.com/studyplan/leetcode-75/
 
 ---
 
-| Retention | Description                                                         |
-|:---------:|:--------------------------------------------------------------------|
-|     5     | Решено самостоятельно, в пределах времени.                          |
-|     4     | Решено самостоятельно, но слишком медленно / незначительные ошибки. |
-|     3     | Вспомнил алгоритм, но в коде были ошибки / нужны были подсказки.    |
-|     2     | Смутно помнил тему, не смог решить.                                 |
-|     1     | Полный провал (не распознал задачу).                                |
+# Fundamentals
+
+## Array / String
+
+| Level  | Name                                                   | Link                                                                              | Retention |
+|:------:|:-------------------------------------------------------|:----------------------------------------------------------------------------------|:----------|
+|  Easy  | 88. Merge Sorted Array                                 | https://leetcode.com/problems/merge-sorted-array/                                 | 5         |
+|  Easy  | 27. Remove Element                                     | https://leetcode.com/problems/remove-element/                                     | 5         |
+|  Easy  | 26. Remove Duplicates from Sorted Array                | https://leetcode.com/problems/remove-duplicates-from-sorted-array/                | 5         |
+| Medium | 80. Remove Duplicates from Sorted Array II             | https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/             |           |
+|  Easy  | 169. Majority Element                                  | https://leetcode.com/problems/majority-element/                                   |           |
+|  Easy  | 189. Rotate Array                                      | https://leetcode.com/problems/rotate-array/                                       |           |
+|  Easy  | 121. Best Time to Buy and Sell Stock                   | https://leetcode.com/problems/best-time-to-buy-and-sell-stock/                    |           |
+| Medium | 122. Best Time to Buy and Sell Stock II                | https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/                 |           |
+| Medium | 55. Jump Game                                          | https://leetcode.com/problems/jump-game/                                          |           |
+| Medium | 45. Jump Game II                                       | https://leetcode.com/problems/jump-game-ii/                                       |           |
+| Medium | 274. H-Index                                           | https://leetcode.com/problems/h-index/                                            |           |
+| Medium | 380. Insert Delete GetRandom O(1)                      | https://leetcode.com/problems/insert-delete-getrandom-o1/                         |           |
+| Medium | 238. Product of Array Except Self                      | https://leetcode.com/problems/product-of-array-except-self/                       |           |
+| Medium | 134. Gas Station                                       | https://leetcode.com/problems/gas-station/                                        |           |
+| Medium | 135. Candy                                             | https://leetcode.com/problems/candy/                                              |           |
+| Medium | 42. Trapping Rain Water                                | https://leetcode.com/problems/trapping-rain-water/                                |           |
+| Medium | 13. Roman to Integer                                   | https://leetcode.com/problems/roman-to-integer/                                   |           |
+| Medium | 12. Integer to Roman                                   | https://leetcode.com/problems/integer-to-roman/                                   |           |
+|  Easy  | 58. Length of Last Word                                | https://leetcode.com/problems/length-of-last-word/                                | 4         |
+|  Easy  | 14. Longest Common Prefix                              | https://leetcode.com/problems/longest-common-prefix/                              |           |
+| Medium | 151. Reverse Words in a String                         | https://leetcode.com/problems/reverse-words-in-a-string/                          |           |
+| Medium | 6. Zigzag Conversion                                   | https://leetcode.com/problems/zigzag-conversion/                                  |           |
+|  Easy  | 28. Find the Index of the First Occurrence in a String | https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/ |           |
+|  Hard  | 68. Text Justification                                 | https://leetcode.com/problems/text-justification/                                 |           |
+
+## Two Pointers
+
+| Level | Name                | Link                                          | Retention |
+|:-----:|:--------------------|:----------------------------------------------|:----------|
+| Easy  | 344. Reverse String | https://leetcode.com/problems/reverse-string/ |           |
+
+## Sliding Window
+
+| Level | Name                            | Link                                                      | Retention |
+|:-----:|:--------------------------------|:----------------------------------------------------------|:----------|
+| Easy  | 643. Maximum Average Subarray I | https://leetcode.com/problems/maximum-average-subarray-i/ |           |
 
 ---
----
 
-# LeetCode
+Plan:
+
+- Ten
+- multitrack
+- leetcode-yandex
+- yandex all
+- badges 150
+- badges 100
+- badges 75
+
+---
 
 ---
 
@@ -84,17 +106,17 @@ Big O - это оценка алгоритма при худшем случае.
 
 # 1. Two Pointers (Два указателя)
 
-| Level  | Name                                    | Link                                                               | Done | Repeatable |
-|:------:|:----------------------------------------|:-------------------------------------------------------------------|:----:|:----------:|
-|  Easy  | 344. Reverse String                     | https://leetcode.com/problems/reverse-string/                      | Done |            |
-|  Easy  | 125. Valid Palindrome                   | https://leetcode.com/problems/valid-palindrome/                    | Done |            |
-| Medium | 167. Two Sum II - Input Array Is Sorted | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/    | Done |            |
-| Medium | 15. 3Sum                                | https://leetcode.com/problems/3sum/                                | Done |            |
-|  Easy  | 977. Squares of a Sorted Array          | https://leetcode.com/problems/squares-of-a-sorted-array/           | Done |            |
-| Medium | 11. Container With Most Water           | https://leetcode.com/problems/container-with-most-water/           | Done |     *      |
-|  Easy  | 283.Move Zeroes                         | https://leetcode.com/problems/move-zeroes/                         | Done |            |
-|  Easy  | 392. Is Subsequence                     | https://leetcode.com/problems/is-subsequence/                      | Done |     *      |
-|  Easy  | 844. Backspace String Compare           | https://leetcode.com/problems/backspace-string-compare/            | Done |            |
+| Level  | Name                                    | Link                                                            | Done | Repeatable |
+|:------:|:----------------------------------------|:----------------------------------------------------------------|:----:|:----------:|
+|  Easy  | 344. Reverse String                     | https://leetcode.com/problems/reverse-string/                   | Done |            |
+|  Easy  | 125. Valid Palindrome                   | https://leetcode.com/problems/valid-palindrome/                 | Done |            |
+| Medium | 167. Two Sum II - Input Array Is Sorted | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/ | Done |            |
+| Medium | 15. 3Sum                                | https://leetcode.com/problems/3sum/                             | Done |            |
+|  Easy  | 977. Squares of a Sorted Array          | https://leetcode.com/problems/squares-of-a-sorted-array/        | Done |            |
+| Medium | 11. Container With Most Water           | https://leetcode.com/problems/container-with-most-water/        | Done |     *      |
+|  Easy  | 283.Move Zeroes                         | https://leetcode.com/problems/move-zeroes/                      | Done |            |
+|  Easy  | 392. Is Subsequence                     | https://leetcode.com/problems/is-subsequence/                   | Done |     *      |
+|  Easy  | 844. Backspace String Compare           | https://leetcode.com/problems/backspace-string-compare/         | Done |            |
 
 ---
 
@@ -588,18 +610,6 @@ https://github.com/Overhellz/multitrack
 
 ---
 
-## Retention Rating Scale
-
-| Retention | Description                                             |
-|:---------:|:--------------------------------------------------------|
-|     5     | Solved independently, within time.                      |
-|     4     | Solved independently, but too slow / minor errors.      |
-|     3     | Recalled algorithm, but code had errors / needed hints. |
-|     2     | Vaguely remembered the topic, couldn't solve.           |
-|     1     | Complete failure (didn't recognize the problem).        |
-
----
-
 ## 1. Hash Map
 
 | Level  | Name                               | Link                                                         | Retention |
@@ -632,15 +642,15 @@ https://github.com/Overhellz/multitrack
 
 ## 3. Two Pointers
 
-| Level  | Name                                    | Link                                                               | Retention |
-|:------:|:----------------------------------------|:-------------------------------------------------------------------|:----------|
-|  Easy  | 344. Reverse String                     | https://leetcode.com/problems/reverse-string/                      | 5         |
-|  Easy  | 125. Valid Palindrome                   | https://leetcode.com/problems/valid-palindrome/                    | 4         |
-|  Easy  | 283. Move Zeroes                        | https://leetcode.com/problems/move-zeroes/                         | 4         |
-| Medium | 167. Two Sum II - Input Array Is Sorted | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/    | 4         |
-| Medium | 15. 3Sum                                | https://leetcode.com/problems/3sum/                                | 4         |
-| Medium | 18. 4Sum                                | https://leetcode.com/problems/4sum/                                | 4         |
-| Medium | 11. Container With Most Water           | https://leetcode.com/problems/container-with-most-water/           | 5         |
+| Level  | Name                                    | Link                                                            | Retention |
+|:------:|:----------------------------------------|:----------------------------------------------------------------|:----------|
+|  Easy  | 344. Reverse String                     | https://leetcode.com/problems/reverse-string/                   | 5         |
+|  Easy  | 125. Valid Palindrome                   | https://leetcode.com/problems/valid-palindrome/                 | 4         |
+|  Easy  | 283. Move Zeroes                        | https://leetcode.com/problems/move-zeroes/                      | 4         |
+| Medium | 167. Two Sum II - Input Array Is Sorted | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/ | 4         |
+| Medium | 15. 3Sum                                | https://leetcode.com/problems/3sum/                             | 4         |
+| Medium | 18. 4Sum                                | https://leetcode.com/problems/4sum/                             | 4         |
+| Medium | 11. Container With Most Water           | https://leetcode.com/problems/container-with-most-water/        | 5         |
 
 ---
 
