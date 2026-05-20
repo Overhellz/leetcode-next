@@ -4,6 +4,16 @@ import java.util.*;
 
 class Solution80 {
     public int removeDuplicates(int[] nums) {
-return 0;
+        int left = 0;
+        int count = 1;
+
+
+        for (int right = 1; right < nums.length; right++) {
+            if (nums[right] != nums[left]) {
+
+            }
+        }
+
+
     }
 }
