@@ -1,5 +1,7 @@
 # leetcode-next
 
+https://github.com/Overhellz/leetcode-next
+
 ---
 
 # Leetcode Badges
@@ -88,6 +90,10 @@ https://leetcode.com/studyplan/leetcode-75/
 | Medium | 3. Longest Substring Without Repeating Characters | https://leetcode.com/problems/longest-substring-without-repeating-characters/ |           |
 | Medium | 30. Substring with Concatenation of All Words     | https://leetcode.com/problems/substring-with-concatenation-of-all-words/      |           |
 |  Hard  | 76. Minimum Window Substring                      | https://leetcode.com/problems/minimum-window-substring/                       |
+
+---
+
+---
 
 ---
 
@@ -561,29 +567,6 @@ Dynamic Programming
 
 ---
 
-# multitrack
-
-https://github.com/Overhellz/multitrack
-
----
-
-|  # | Theme                    | Ready |
-|---:|:-------------------------|:-----:|
-|  1 | Hash Map                 |   +   |
-|  2 | Binary Search            |   *   |
-|  3 | Two Pointers             |   +   |
-|  4 | Sliding Window           |   +   |
-|  5 | Prefix Sum               |   *   |
-|  6 | Intervals                |   *   |
-|  7 | Stack, Queue             |   +   |
-|  8 | Linked List              |   *   |
-|  9 | Binary Tree (DFS)        |   *   |
-| 10 | Binary Tree (BFS)        |   +   |
-| 11 | Binary Search Tree (BST) |   *   |
-| 12 | Backtracking             |   *   |
-
----
-
 ## 1. Hash Map
 
 | Level  | Name                               | Link                                                         | Retention |
@@ -893,100 +876,6 @@ https://github.com/Overhellz/multitrack
 
 ---
 
-# multitrack
-
-https://github.com/Overhellz/multitrack
-
----
-
-План минимальной подготовки: Heap, Dynamic Programming, Backtracking
-Ниже — по 3–4 задачи на тему, которые покрывают самые частые паттерны на собеседованиях. Этого достаточно для уровня
-«пройду минимальный порог».
-
-1. Heap / Priority Queue
-   № Название Сложность Почему важно
-   1046 Last Stone Weight Easy Базовая работа с max-heap, частый warm-up
-   215 Kth Largest Element in an Array Medium Классика "K-й элемент", 3 решения (heap, quick select)
-   347 Top K Frequent Elements Medium Heap + Hash Map — комбо-задача
-   973 K Closest Points to Origin Medium Max-heap размера k
-   Что должно получиться после этих задач:
-   Понимать разницу между min-heap и max-heap
-
-Уметь решать "Top K" задачи
-
-2. Dynamic Programming
-   № Название Сложность Паттерн
-   70 Climbing Stairs Easy Fibonacci → основа всей DP
-   198 House Robber Medium Take/Skip — классика
-   300 Longest Increasing Subsequence Medium O(n²) DP + оптимизация O(n log n)
-   322 Coin Change Medium Unbounded knapsack — база
-   Что должно получиться:
-   Решать Climbing Stairs и House Robber вслепую за 5 минут
-
-Понимать разницу между 0/1 knapsack и unbounded knapsack
-
-Уметь написать LIS хотя бы O(n²)
-
-Бонус (если останется время):
-
-53. Maximum Subarray — Kadane's Algorithm
-
-1143. Longest Common Subsequence — 2D DP классика
-
-
-3. Backtracking
-   № Название Сложность Паттерн
-   78 Subsets Medium Generate all subsets — основа
-   46 Permutations Medium Generate all permutations — основа
-   39 Combination Sum Medium Pick/not pick с target
-   22 Generate Parentheses Medium Constraint-based recursion
-   Что должно получиться:
-   Шаблон "pick/not pick" для Subsets и Combination Sum
-
-Шаблон "swap-based" для Permutations
-
-Понимать, когда нужно pop_back() (backtrack!)
-
-Бонус:
-
-90. Subsets II (with duplicates) — добавить skip дубликатов
-
-17. Letter Combinations of a Phone Number — BFS-like backtracking
-
-📊 Итоговый чеклист (12 задач)
-Тема Задачи
-Heap 1046, 215, 347, 973
-DP 70, 198, 300, 322
-Backtracking 78, 46, 39, 22
-⏱ Рекомендуемый темп
-День Что делать
-1 Heap: 1046 + 215
-2 Heap: 347 + 973 + повтор
-3 DP: 70 + 198
-4 DP: 300 + 322
-5 Backtracking: 78 + 46
-6 Backtracking: 39 + 22
-7 Всё повторить, таймер 15–20 мин на задачу
-
-🔥 Самые важные (если времени в обрез — только 5 задач)
-1046 Last Stone Weight (heap basics)
-
-215 Kth Largest (top-K классика)
-
-70 Climbing Stairs (DP fundamentals)
-
-78 Subsets (backtracking шаблон)
-
-322 Coin Change (knapsack)
-
-После этих пяти ты сможешь объяснить 80% вопросов по трём темам. Остальные — для уверенности.
-
-# multitrack
-
-https://github.com/Overhellz/multitrack
-
----
-
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
 1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,75.0%
 2,https://leetcode.com/problems/add-two-numbers,Add Two Numbers,Medium,47.9%,50.0%
@@ -1249,35 +1138,7 @@ Backtracking 17, 22
     392 Is Subsequence Easy 62.5%
     680 Valid Palindrome II Easy 75%
 
-Сводная таблица новых тем
-Новая тема Количество задач Приоритет для изучения
-Dynamic Programming 6 🔴 Высокий
-Heap / Priority Queue 4 🔴 Высокий
-Graph / Matrix 5 🟡 Средний
-Design / OOP 7 🟡 Средний
-Greedy 4 🟡 Средний
-Math / Geometry 6 🟢 Низкий
-String / Array 13 🟢 Низкий (база)
-Bit Manipulation 1 🟢 Низкий
-Union Find 1 🟢 Низкий
-
-Рекомендация
-Для алгоритмического собеседования сфокусируйтесь на:
-
-Dynamic Programming — 5, 53, 300, 322, 124, 279
-
-Heap — 23, 347, 295, 658
-
-Graph BFS/DFS — 200, 994
-
-Остальные темы (Math, String, Design) — решайте после освоения основных 12.
-
-
-
 ---
-
-
-
 
 Тема ID задач
 Array 1, 4, 11, 33, 35, 42, 53, 56, 74, 153, 167, 200, 209, 228, 238, 283, 300, 322, 349, 350,
