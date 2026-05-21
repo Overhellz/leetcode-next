@@ -49,12 +49,12 @@ https://leetcode.com/studyplan/leetcode-75/
 |  Easy  | 26. Remove Duplicates from Sorted Array                | https://leetcode.com/problems/remove-duplicates-from-sorted-array/                | 5         |
 | Medium | 80. Remove Duplicates from Sorted Array II             | https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/             | 3         |
 |  Easy  | 169. Majority Element                                  | https://leetcode.com/problems/majority-element/                                   | 4         |
-| Medium | 189. Rotate Array                                      | https://leetcode.com/problems/rotate-array/                                       |           |
+| Medium | 189. Rotate Array                                      | https://leetcode.com/problems/rotate-array/                                       | 3         |
 |  Easy  | 121. Best Time to Buy and Sell Stock                   | https://leetcode.com/problems/best-time-to-buy-and-sell-stock/                    | 5         |
 | Medium | 122. Best Time to Buy and Sell Stock II                | https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/                 | 3         |
 | Medium | 55. Jump Game                                          | https://leetcode.com/problems/jump-game/                                          | 3         |
-| Medium | 45. Jump Game II                                       | https://leetcode.com/problems/jump-game-ii/                                       |           |
-| Medium | 274. H-Index                                           | https://leetcode.com/problems/h-index/                                            |           |
+| Medium | 45. Jump Game II                                       | https://leetcode.com/problems/jump-game-ii/                                       | 2         |
+| Medium | 274. H-Index                                           | https://leetcode.com/problems/h-index/                                            | 2         |
 | Medium | 380. Insert Delete GetRandom O(1)                      | https://leetcode.com/problems/insert-delete-getrandom-o1/                         |           |
 | Medium | 238. Product of Array Except Self                      | https://leetcode.com/problems/product-of-array-except-self/                       | .         |
 | Medium | 134. Gas Station                                       | https://leetcode.com/problems/gas-station/                                        |           |
@@ -74,9 +74,9 @@ https://leetcode.com/studyplan/leetcode-75/
 | Level  | Name                                    | Link                                                            | Retention |
 |:------:|:----------------------------------------|:----------------------------------------------------------------|:----------|
 |  Easy  | 125. Valid Palindrome                   | https://leetcode.com/problems/valid-palindrome/                 | 5         |
-|  Easy  | 392. Is Subsequence                     | https://leetcode.com/problems/is-subsequence/                   |           |
-| Medium | 167. Two Sum II - Input Array Is Sorted | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/ |           |
-| Medium | 11. Container With Most Water           | https://leetcode.com/problems/container-with-most-water/        |           |
+|  Easy  | 392. Is Subsequence                     | https://leetcode.com/problems/is-subsequence/                   | 5         |
+| Medium | 167. Two Sum II - Input Array Is Sorted | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/ | 5         |
+| Medium | 11. Container With Most Water           | https://leetcode.com/problems/container-with-most-water/        | 5         |
 | Medium | 15. 3Sum                                | https://leetcode.com/problems/3sum/                             |           |
 | Medium | 42. Trapping Rain Water                 | https://leetcode.com/problems/trapping-rain-water/              |           |
 |  Easy  | 283. Move Zeroes                        | https://leetcode.com/problems/move-zeroes/                      |           |
@@ -102,12 +102,9 @@ https://leetcode.com/studyplan/leetcode-75/
 | Level  | Name                                    | Link                                                            | Done | Repeatable |
 |:------:|:----------------------------------------|:----------------------------------------------------------------|:----:|:----------:|
 |  Easy  | 344. Reverse String                     | https://leetcode.com/problems/reverse-string/                   | Done |            |
-| Medium | 167. Two Sum II - Input Array Is Sorted | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/ | Done |            |
 | Medium | 15. 3Sum                                | https://leetcode.com/problems/3sum/                             | Done |            |
 |  Easy  | 977. Squares of a Sorted Array          | https://leetcode.com/problems/squares-of-a-sorted-array/        | Done |            |
-| Medium | 11. Container With Most Water           | https://leetcode.com/problems/container-with-most-water/        | Done |     *      |
 |  Easy  | 283.Move Zeroes                         | https://leetcode.com/problems/move-zeroes/                      | Done |            |
-|  Easy  | 392. Is Subsequence                     | https://leetcode.com/problems/is-subsequence/                   | Done |     *      |
 |  Easy  | 844. Backspace String Compare           | https://leetcode.com/problems/backspace-string-compare/         | Done |            |
 
 ---
@@ -603,10 +600,8 @@ Dynamic Programming
 |:------:|:----------------------------------------|:----------------------------------------------------------------|:----------|
 |  Easy  | 344. Reverse String                     | https://leetcode.com/problems/reverse-string/                   | 5         |
 |  Easy  | 283. Move Zeroes                        | https://leetcode.com/problems/move-zeroes/                      | 4         |
-| Medium | 167. Two Sum II - Input Array Is Sorted | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/ | 4         |
 | Medium | 15. 3Sum                                | https://leetcode.com/problems/3sum/                             | 4         |
 | Medium | 18. 4Sum                                | https://leetcode.com/problems/4sum/                             | 4         |
-| Medium | 11. Container With Most Water           | https://leetcode.com/problems/container-with-most-water/        | 5         |
 
 ---
 
@@ -884,7 +879,6 @@ Characters,Medium,38.5%,87.5%
 4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.9%,50.0%
 5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.3%,62.5%
 7,https://leetcode.com/problems/reverse-integer,Reverse Integer,Medium,31.5%,37.5%
-11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.5%,62.5%
 20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.7%,62.5%
 21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.9%,62.5%
 22,https://leetcode.com/problems/generate-parentheses,Generate Parentheses,Medium,78.2%,50.0%
@@ -909,7 +903,6 @@ Traversal,Medium,63.1%,37.5%
 Array,Medium,53.8%,37.5%
 155,https://leetcode.com/problems/min-stack,Min Stack,Medium,57.7%,62.5%
 161,https://leetcode.com/problems/one-edit-distance,One Edit Distance,Medium,34.5%,75.0%
-167,https://leetcode.com/problems/two-sum-ii-input-array-is-sorted,Two Sum II - Input Array Is Sorted,Medium,64.6%,37.5%
 199,https://leetcode.com/problems/binary-tree-right-side-view,Binary Tree Right Side View,Medium,69.5%,50.0%
 200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.8%,75.0%
 205,https://leetcode.com/problems/isomorphic-strings,Isomorphic Strings,Easy,48.0%,75.0%
@@ -938,7 +931,6 @@ Distinct Characters,Medium,49.9%,50.0%
 362,https://leetcode.com/problems/design-hit-counter,Design Hit Counter,Medium,69.6%,50.0%
 380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.3%,75.0%
 387,https://leetcode.com/problems/first-unique-character-in-a-string,First Unique Character in a String,Easy,65.0%,37.5%
-392,https://leetcode.com/problems/is-subsequence,Is Subsequence,Easy,48.8%,62.5%
 395,https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters,Longest Substring with At Least
 K Repeating Characters,Medium,46.0%,25.0%
 424,https://leetcode.com/problems/longest-repeating-character-replacement,Longest Repeating Character
@@ -1036,7 +1028,7 @@ Continuous Subarray With Absolute Diff Less Than or Equal to Limit,Medium,57.3%,
 Тема ID недостающих задач
 Hash Map 146, 205, 349, 350, 380, 387, 652, 771, 1436
 Binary Search 4, 33
-Two Pointers 42, 167, 283, 392, 680, 977
+Two Pointers 42, 283, 680, 977
 Sliding Window 340, 395, 485, 487
 Prefix Sum 523
 Intervals 986
@@ -1133,32 +1125,30 @@ Backtracking 17, 22
     ID Название Уровень Частота
     18 4Sum Medium 37.5%
     42 Trapping Rain Water Hard 62.5%
-    167 Two Sum II Medium 37.5%
     283 Move Zeroes Easy 75%
-    392 Is Subsequence Easy 62.5%
     680 Valid Palindrome II Easy 75%
 
 ---
 
 Тема ID задач
-Array 1, 4, 11, 33, 35, 42, 53, 56, 74, 153, 167, 200, 209, 228, 238, 283, 300, 322, 349, 350,
+Array 1, 4, 33, 35, 42, 53, 56, 74, 153, 200, 209, 228, 238, 283, 300, 322, 349, 350,
 380, 485, 560, 605, 643, 674, 849, 881, 896, 977, 1679, 1868, 2215, 2570, 2956, 2006
 Hash Table 1, 49, 136, 205, 242, 347, 349, 350, 380, 387, 438, 523, 560, 652, 771, 1436, 1656, 1679, 2043, 2215,
 2657, 2956, 2006
-String 3, 5, 13, 17, 20, 22, 49, 68, 71, 76, 161, 205, 227, 242, 332, 340, 387, 392, 395, 415, 424, 438, 443, 567,
+String 3, 5, 13, 17, 20, 22, 49, 68, 71, 76, 161, 205, 227, 242, 332, 340, 387, 395, 415, 424, 438, 443, 567,
 680, 771
 Sliding Window 3, 76, 209, 340, 395, 424, 438, 485, 487, 567, 643, 1004, 1438, 1493, 2743, 2841
-Two Pointers 11, 18, 19, 42, 141, 167, 234, 283, 392, 443, 567, 680, 881, 986, 1679
-Binary Search 33, 35, 74, 153, 167, 220, 300, 349, 350, 658
+Two Pointers 18, 19, 42, 141, 234, 283, 443, 567, 680, 881, 986, 1679
+Binary Search 33, 35, 74, 153, 220, 300, 349, 350, 658
 Linked List 2, 19, 21, 23, 24, 141, 146, 206, 234
 Tree / DFS / BFS 98, 101, 102, 103, 110, 124, 199, 235, 236, 652, 938, 994, 1650
 Stack / Queue 20, 22, 71, 146, 150, 155, 227, 232, 239, 341, 739, 933
 Heap / Priority Queue 23, 239, 295, 347, 658
 Math 7, 9, 13, 415, 470
 Backtracking 17, 22
-Dynamic Programming 53, 279, 300, 322, 392, 674
+Dynamic Programming 53, 279, 300, 322, 674
 Design 146, 155, 232, 341, 362, 380, 933, 1656, 2043, 2241, 2627, 2629, 2665, 2666, 2667
 Sorting 49, 56, 242, 347, 349, 350, 977
-Greedy 11, 1679
+Greedy 1679
 Matrix 74, 1572
 SQL 181
