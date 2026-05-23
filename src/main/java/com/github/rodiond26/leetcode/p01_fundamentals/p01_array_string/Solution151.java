@@ -1,0 +1,20 @@
+package com.github.rodiond26.leetcode.p01_fundamentals.p01_array_string;
+
+import java.util.*;
+
+class Solution151 {
+    public String reverseWords(String s) {
+        String[] words = s.trim().split("\\s+");
+
+        int left = 0;
+        int right = words.length - 1;
+        while (left < right) {
+            String temp = words[left];
+            words[left] = words[right];
+            words[right] = temp;
+            left++;
+            right--;
+        }
+        return String.join(" ", words);
+    }
+}
