@@ -30,6 +30,131 @@ https://leetcode.com/studyplan/leetcode-75/
 
 ---
 
+### 1. Fundamentals
+
+1. Array
+    - Traversal, insertion, deletion
+    - In-place operations
+2. String
+    - Character manipulation
+    - StringBuilder
+3. Hash Map / Hash Set
+4. Two Pointers
+    - Same direction
+    - Opposite directions
+5. Sliding Window
+    - Fixed size
+    - Variable size
+6. Prefix Sum
+    - 1D
+    - 2D (optional)
+7. Binary Search
+    - Standard
+    - Search in rotated array
+    - Search answer space
+8. Stack
+9. Queue (including Deque)
+10. Intervals
+    - Merge
+    - Insert
+    - Overlap checks
+
+### 2. Linked Lists & Trees
+
+1. Linked List
+    - Traversal
+    - Reverse (iterative / recursive)
+    - Cycle detection (Floyd)
+    - Find middle
+    - Merge two lists
+2. Binary Tree DFS
+    - Preorder, Inorder, Postorder (recursive + iterative)
+    - Path problems
+    - Lowest Common Ancestor
+3. Binary Tree BFS
+4. Binary Search Tree BST
+    - Search, insert, delete
+    - Validate BST
+    - Kth smallest/largest
+5. Trie
+    - Insert, search, startsWith
+    - Word search with backtracking
+6. Heap / Priority Queue
+    - Min-heap, max-heap
+    - Heapify
+    - Top K elements
+    - Merge K sorted lists
+
+### 3. Graphs
+
+1. Graph Representation
+    - Adjacency list
+    - Adjacency matrix
+2. Graph DFS (recursive + iterative)
+3. Graph BFS
+4. Topological Sort
+    - Kahn's algorithm (BFS)
+    - DFS-based
+5. Dijkstra's Algorithm (Shortest Path)
+6. Union-Find (Disjoint Set)
+    - Find with path compression
+    - Union by rank
+    - Cycle detection in undirected graph
+
+### 4. Recursion & Combinatorics
+
+1. Recursion basics
+    - Base case, recurrence relation
+2. Backtracking
+    - Subsets
+    - Combinations
+    - Permutations
+    - Subsets with duplicates
+    - Combination sum
+    - Palindrome partitioning
+    - N-Queens
+3. Divide & Conquer
+    - Merge sort
+    - Quick select (Kth largest)
+
+### 5. Dynamic Programming
+
+1. DP — Memoization vs Tabulation
+2. DP — 1D
+    - Climbing stairs
+    - House robber
+    - Decode ways
+    - Word break
+3. DP — 2D
+    - Unique paths
+    - Longest common subsequence
+    - Edit distance
+    - Coin change II
+4. DP — Interval / Matrix
+    - Palindrome substrings
+    - Burst balloons (optional)
+5. DP — State machine
+    - Best time to buy/sell stock (with cooldown, transaction limits)
+
+### 6. Advanced / Complementary
+
+1. Greedy Algorithms
+    - Interval scheduling
+    - Jump game
+    - Gas station
+2. Bit Manipulation
+    - XOR tricks
+    - Bit masking for subsets
+3. Monotonic Stack
+    - Next greater element
+    - Largest rectangle in histogram
+4. Design / OOP
+    - LRU Cache (if asked)
+    - Min stack
+    - Randomized set
+
+---
+
 # Fundamentals
 
 ## Array / String
@@ -47,9 +172,9 @@ https://leetcode.com/studyplan/leetcode-75/
 | Medium | 55. Jump Game                                          | https://leetcode.com/problems/jump-game/                                          | 3         |
 | Medium | 45. Jump Game II                                       | https://leetcode.com/problems/jump-game-ii/                                       | 2         |
 | Medium | 274. H-Index                                           | https://leetcode.com/problems/h-index/                                            | 2         |
-| Medium | 380. Insert Delete GetRandom O(1)                      | https://leetcode.com/problems/insert-delete-getrandom-o1/                         |           |
+| Medium | 380. Insert Delete GetRandom O(1)                      | https://leetcode.com/problems/insert-delete-getrandom-o1/                         | 2         |
 | Medium | 238. Product of Array Except Self                      | https://leetcode.com/problems/product-of-array-except-self/                       | .         |
-| Medium | 134. Gas Station                                       | https://leetcode.com/problems/gas-station/                                        |           |
+| Medium | 134. Gas Station                                       | https://leetcode.com/problems/gas-station/                                        | 2         |
 | Medium | 135. Candy                                             | https://leetcode.com/problems/candy/                                              |           |
 | Medium | 42. Trapping Rain Water                                | https://leetcode.com/problems/trapping-rain-water/                                |           |
 | Medium | 13. Roman to Integer                                   | https://leetcode.com/problems/roman-to-integer/                                   | 2         |
