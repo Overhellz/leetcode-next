@@ -32,79 +32,36 @@ https://leetcode.com/studyplan/leetcode-75/
 
 ### 1. Fundamentals
 
-1. Array
-    - Traversal, insertion, deletion
-    - In-place operations
-2. String
-    - Character manipulation
-    - StringBuilder
-3. Hash Map / Hash Set
-4. Two Pointers
-    - Same direction
-    - Opposite directions
-5. Sliding Window
-    - Fixed size
-    - Variable size
+1. Array / String
+2. Two Pointers
+3. Sliding Window
+4. Hash Map
+5. Stack, Queue
 6. Prefix Sum
-    - 1D
-    - 2D (optional)
 7. Binary Search
-    - Standard
-    - Search in rotated array
-    - Search answer space
-8. Stack
-9. Queue (including Deque)
-10. Intervals
-    - Merge
-    - Insert
-    - Overlap checks
+8. Intervals
 
 ### 2. Linked Lists & Trees
 
 1. Linked List
-    - Traversal
-    - Reverse (iterative / recursive)
-    - Cycle detection (Floyd)
-    - Find middle
-    - Merge two lists
 2. Binary Tree DFS
-    - Preorder, Inorder, Postorder (recursive + iterative)
-    - Path problems
-    - Lowest Common Ancestor
 3. Binary Tree BFS
 4. Binary Search Tree BST
-    - Search, insert, delete
-    - Validate BST
-    - Kth smallest/largest
 5. Trie
-    - Insert, search, startsWith
-    - Word search with backtracking
 6. Heap / Priority Queue
-    - Min-heap, max-heap
-    - Heapify
-    - Top K elements
-    - Merge K sorted lists
 
 ### 3. Graphs
 
-1. Graph Representation
-    - Adjacency list
-    - Adjacency matrix
-2. Graph DFS (recursive + iterative)
+1. Graph General
+2. Graph DFS
 3. Graph BFS
 4. Topological Sort
-    - Kahn's algorithm (BFS)
-    - DFS-based
 5. Dijkstra's Algorithm (Shortest Path)
 6. Union-Find (Disjoint Set)
-    - Find with path compression
-    - Union by rank
-    - Cycle detection in undirected graph
 
 ### 4. Recursion & Combinatorics
 
 1. Recursion basics
-    - Base case, recurrence relation
 2. Backtracking
     - Subsets
     - Combinations
@@ -248,6 +205,17 @@ https://leetcode.com/studyplan/leetcode-75/
 | Medium | 71. Simplify Path                              | https://leetcode.com/problems/simplify-path/                            |            |
 | Medium | 150. Evaluate Reverse Polish Notation          | https://leetcode.com/problems/evaluate-reverse-polish-notation/         |            |
 
+## Prefix Sum
+
+| Level  | Name                              | Link                                                        | Retention |
+|:------:|:----------------------------------|:------------------------------------------------------------|:----------|
+|  Easy  | 303. Range Sum Query - Immutable  | https://leetcode.com/problems/range-sum-query-immutable/    |           |
+|  Easy  | 724. Find Pivot Index             | https://leetcode.com/problems/find-pivot-index/             |           |
+| Medium | 560. Subarray Sum Equals K        | https://leetcode.com/problems/subarray-sum-equals-k/        |           |
+| Medium | 238. Product of Array Except Self | https://leetcode.com/problems/product-of-array-except-self/ |           |
+| Medium | 525. Contiguous Array             | https://leetcode.com/problems/contiguous-array/             |           |
+| Medium | 974. Subarray Sums Divisible by K | https://leetcode.com/problems/subarray-sums-divisible-by-k/ |           |
+
 ## Binary Search
 
 | Level  | Name                                                        | Link                                                                                   | Retention |
@@ -274,421 +242,153 @@ https://leetcode.com/studyplan/leetcode-75/
 |  Medium   | 2406. Divide Intervals Into Minimum Number of Groups | https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/ |           |
 |  Medium   | 1288. Remove Covered Intervals                       | https://leetcode.com/problems/remove-covered-intervals/                       |           |
 
-##  Prefix Sum
-
-| Level  | Name                              | Link                                                        | Retention |
-|:------:|:----------------------------------|:------------------------------------------------------------|:----------|
-|  Easy  | 303. Range Sum Query - Immutable  | https://leetcode.com/problems/range-sum-query-immutable/    |           |
-|  Easy  | 724. Find Pivot Index             | https://leetcode.com/problems/find-pivot-index/             |           |
-| Medium | 560. Subarray Sum Equals K        | https://leetcode.com/problems/subarray-sum-equals-k/        |           |
-| Medium | 238. Product of Array Except Self | https://leetcode.com/problems/product-of-array-except-self/ |           |
-| Medium | 525. Contiguous Array             | https://leetcode.com/problems/contiguous-array/             |           |
-| Medium | 974. Subarray Sums Divisible by K | https://leetcode.com/problems/subarray-sums-divisible-by-k/ |           |
-
----
-
----
-
----
-
-# 3. Linked List (Связный список)
-
-Linked List (Связный список) - это набор Node (узлов), которые содержат в себе какие-то данные и связаны в цепочку.
-
-Head - начало (голова) связного спика, tail - конец (хвост) списка.
-
-Типовые задачи:
-
-- найти середину Linked List,
-- найти N-ноду в Linked List,
-- реверс Linked List,
-- слить два Linked List в один.
-
-| Level  | Name                                          | Link                                                                   | Done | Repeatable |
-|:------:|:----------------------------------------------|:-----------------------------------------------------------------------|:----:|:----------:|
-| Medium | 707. Design Linked List                       | https://leetcode.com/problems/design-linked-list/                      | Done |    ***     |
-|  Easy  | 876. Middle of the Linked List                | https://leetcode.com/problems/middle-of-the-linked-list/               | Done |     *      |
-| Medium | 2095. Delete the Middle Node of a Linked List | https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/ | Done |     *      |
-|  Easy  | 206. Reverse Linked List                      | https://leetcode.com/problems/reverse-linked-list/                     | Done |    ***     |
-|  Easy  | 234. Palindrome Linked List                   | https://leetcode.com/problems/palindrome-linked-list/                  | Done |     *      |
-|  Easy  | 83. Remove Duplicates from Sorted List        | https://leetcode.com/problems/remove-duplicates-from-sorted-list/      | Done |     *      |
-| Medium | 19. Remove Nth Node From End of List          | https://leetcode.com/problems/remove-nth-node-from-end-of-list/        | Done |    ***     |
-| Medium | 24. Swap Nodes in Pairs                       | https://leetcode.com/problems/swap-nodes-in-pairs/                     | Done |     *      |
-|  Easy  | 21. Merge Two Sorted Lists                    | https://leetcode.com/problems/merge-two-sorted-lists/                  | Done |     *      |
-|  Easy  | 141. Linked List Cycle                        | https://leetcode.com/problems/linked-list-cycle/                       | Done |     *      |
-
----
-
-# 5. LRU
-
-- LRU (Least Recently Used) - наименее недавно использованный элемент.
-- При запросе элемента из кеша или добавлении нового элемента в кеш может удалиться из кеша элемент, который был
-  наиболее давно использован.
-
-| Level  | Name           | Link                                     | Done | Repeatable |
-|:------:|:---------------|:-----------------------------------------|:----:|:----------:|
-| Medium | 146. LRU Cache | https://leetcode.com/problems/lru-cache/ | Done |     *      |
-
----
-
-# 7. Binary Tree, DFS (Двоичное дерево, DFS)
-
-Двоичное дерево:
-
-- `root` - голова
-- `left leaf` и `right leaf` - листочки дерева
-- `поддерево`
-- `ветка` - от корня до листочка
-- `уровни дерева`
-
-`DFS` (Deep First Search) - **поиск в глубину** (ныряем максимально глубоко сначала в левую ветку, а потом в правую,
-затем
-всплываем и опять ныряем и т. д.).
-
-- Сложность по вызовам - O(N)
-- Сложность по памяти - O(N)
-- Рекурсия с callstack решает за нас последовательность вызовов
-- Если нам нужны связи между родственниками, то берем DFS.
-- Если нужна максимальная глубина дерева.
-
-* Обход двоичного дерева с помощью рекурсии:
-
-```text
-def dfs(node):
-    if not node:
-        return
-    // print(node.val) => pre order
-    dfs(node.left)
-    // print(node.val) => in order
-    dfs(node.right)
-    // print(node.val) => post order
-    return
-```
-
-* Обход двоичного дерева с помощью стека:
-
-```text
-def dfs(node):
-    stack <- node
-    
-    while stack:
-        node <- stack
-        stack <- node.right
-        stack <- node.left
-        print(node.val)
-
-    return
-```
-
-| Level | Name                              | Link                                                        | Done | Repeatable |
-|:-----:|:----------------------------------|:------------------------------------------------------------|:----:|:----------:|
-| Easy  | 104. Maximum Depth of Binary Tree | https://leetcode.com/problems/maximum-depth-of-binary-tree/ | Done |     *      |
-| Easy  | 226. Invert Binary Tree           | https://leetcode.com/problems/invert-binary-tree/           | Done |    ***     |
-| Easy  | 100. Same Tree                    | https://leetcode.com/problems/same-tree/                    | Done |     *      |
-| Easy  | 101. Symmetric Tree               | https://leetcode.com/problems/symmetric-tree/               | Done |    ***     |
-| Easy  | 112. Path Sum                     | https://leetcode.com/problems/path-sum/                     | Done |     *      |
-
----
-
-# 8. Binary Search Tree (Двоичное дерево поиска, BST)
-
-Алгоритм решения в общем случае:
-
-1. Рассмотреть пустой root.
-2. Рассмотреть root с 2 двумя листьями.
-3. Рассмотреть более сложный root.
-
-| Level  | Name                                  | Link                                                            | Done | Repeatable |
-|:------:|:--------------------------------------|:----------------------------------------------------------------|:----:|:----------:|
-|  Easy  | 700. Search in a Binary Search Tree   | https://leetcode.com/problems/search-in-a-binary-search-tree/   | Done |     *      |
-| Medium | 701. Insert into a Binary Search Tree | https://leetcode.com/problems/insert-into-a-binary-search-tree/ | Done |     *      |
-| Medium | 98. Validate Binary Search Tree       | https://leetcode.com/problems/validate-binary-search-tree/      | Done |     *      |
-|  Easy  | 110. Balanced Binary Tree             | https://leetcode.com/problems/balanced-binary-tree/             | Done |     *      |
-
----
-
-# 9. Binary Tree, BFS (Двоичное дерево, BFS)
-
-BFS (Breadth First Search) - **поиск в ширину**.
-
-- Рассматриваем дерево по слоям/этажам.
-- Обход двоичного дерева с помощью очереди.
-- Сложность по времени O(N) - обойти каждую ноду один раз.
-- Сложность по памяти O(N) - в худшем случае будет лежать весь самый нижний этаж двоичного дерева = n/2.
-- Если нам нужны значения, то больше подойдет BFS.
-- Если надо посмотреть по уровням.
-- Можно потерять структуру дерева.
-
-```text
-def bfs(node):
-if not node:
-return
-
-    q = deque
-    q.push(root)
-    
-    while q:
-        level_size = len(q)
-        for _ in range(level_size)
-        node = q.popleft()
-        q.push(node.left)
-        q.push(node.right)
-    return
-```
-
-| Level  | Name                                                | Link                                                                          | Done | Repeatable |
-|:------:|:----------------------------------------------------|:------------------------------------------------------------------------------|:----:|:----------:|
-| Medium | 102. Binary Tree Level Order Traversal              | https://leetcode.com/problems/binary-tree-level-order-traversal/              | Done |     *      |
-| Medium | 515. Find Largest Value in Each Tree Row            | https://leetcode.com/problems/find-largest-value-in-each-tree-row/            | Done |            |
-| Medium | 199. Binary Tree Right Side View                    | https://leetcode.com/problems/binary-tree-right-side-view/                    | Done |            |
-| Medium | 117. Populating Next Right Pointers in Each Node II | https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/ | Done |     *      |
-| Medium | 236. Lowest Common Ancestor of a Binary Tree        | https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/        | Done |    ***     |
-| Medium | 1325. Delete Leaves With a Given Value              | https://leetcode.com/problems/delete-leaves-with-a-given-value/               | Done |    ***     |
-| Medium | 1302. Deepest Leaves Sum                            | https://leetcode.com/problems/deepest-leaves-sum/                             | Done |            |
-|  Easy  | 543. Diameter of Binary Tree                        | https://leetcode.com/problems/diameter-of-binary-tree/                        | Done |     *      |
-| Medium | 103. Binary Tree Zigzag Level Order Traversal       | https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/       | Done |    ***     |
-
----
-
-# 10. Trie, Autocomplete (Префиксное дерево)
-
-- Trie - префиксное дерево
-- Поиск происходит за O(N).
-- Вставка происходит за O(N).
-
-| Level  | Name                              | Link                                                      | Done | Repeatable |
-|:------:|:----------------------------------|:----------------------------------------------------------|:----:|:----------:|
-| Medium | 208. Implement Trie (Prefix Tree) | https://leetcode.com/problems/implement-trie-prefix-tree/ | Done |     *      |
-| Medium | 1268. Search Suggestions System   | https://leetcode.com/problems/search-suggestions-system/  | Done |     *      |
-
----
-
-# 11. Heap (Куча, Двоичная куча, Очередь с приоритетом), part 1
-
-Priority Queue и Binary Heap
-
-- Binary Heap - это одна из реализаций Priority Queue - ментально представляем себе дерево, а на самом деле это массив.
-
-- Complete Binary Tree - пока не заполнен текущий этаж полностью, нельзя переходить на следующий этаж. Этаж должен
-  заполняться слева направо.
-
-- Виды Binary Heap:
-    - **Max Heap** - значение в каждой ноде должно быть больше или равно значению в детях.
-    - **Min Heap** - значение в каждой ноде должно быть меньше или равно значению в детях.
-
-- В основе лежит массив:
-- Значения i должны быть непрерывны и соответствовать формуле:
-    - `i >= 2i + 1`
-    - `i >= 2i + 2`
-
-| Level  | Name                                 | Link                                                           | Done | Repeatable |
-|:------:|:-------------------------------------|:---------------------------------------------------------------|:----:|:----------:|
-| Medium | 215. Kth Largest Element in an Array | https://leetcode.com/problems/kth-largest-element-in-an-array/ |  *   |     *      |
-|  Easy  | 703. Kth Largest Element in a Stream | https://leetcode.com/problems/kth-largest-element-in-a-stream/ |  *   |     *      |
-| Medium | 347. Top K Frequent Elements         | https://leetcode.com/problems/top-k-frequent-elements/         |  *   |     *      |
-| Medium | 451. Sort Characters By Frequency    | https://leetcode.com/problems/sort-characters-by-frequency/    |  *   |     *      |
-
----
-
-# 12. Heap (Куча, Двоичная куча, Очередь с приоритетом), part 2
-
-| Level  | Name                                      | Link                                                               | Done | Repeatable |
-|:------:|:------------------------------------------|:-------------------------------------------------------------------|:----:|:----------:|
-|  Easy  | 1046. Last Stone Weight                   | https://leetcode.com/problems/last-stone-weight/                   | Done |     *      |
-|  Hard  | 502. IPO                                  | https://leetcode.com/problems/ipo/                                 | Done |     *      |
-|  Hard  | 295. Find Median from Data Stream         | https://leetcode.com/problems/find-median-from-data-stream/        | Done |     *      |
-| Medium | 1962. Remove Stones to Minimize the Total | https://leetcode.com/problems/remove-stones-to-minimize-the-total/ | Done |            |
-|  Hard  | 23. Merge k Sorted Lists                  | https://leetcode.com/problems/merge-k-sorted-lists/                | Done |     *      |
-
----
-
-# 14. Graph, intro
-
-Структура графа:
-
-- V (vertex) - **вершина графа** (Node)
-- E (edge) - **ребра графа** (Edge)
-
-Виды графов:
-
-- **направленный** (от одной вершины к другой) (directed).
-- **ненаправленный** (undirected)
-
-Connected Component - **компонент связности** - граф может состоять из компонент, которые могут быть друг с другом не
-связаны (например, 2 треугольника, островное государство - государство, которое состояит из несвязанных островов).
-
-Сложность обхода: O(V+E) - важны как вершины, так и грани.
-Сложность по памяти: O(V) - храним только вершины
-
-Граф может быть
-
-- Цикличный
-- Ацикличный
-
-Indegree/Outdegree - ссылки на вершину и ссылки на другие вершины
-Indegree - количество входов вершины
-Outdegree - количество выходов из вершины
-
-Граф можно задачть с помощью:
-
-- HashMap <Вершина, Соседи>
-- AL - Список смежности (например, [[0,1], [], [0,2]])
-- Массива
-
-Обход графа с помощью DFS - используем стек: по одному пути ныряем ддо куда можем, а потом выныриваем.
-Обход графа с помощью BFS - используем очередь: кладем в очередь, вытаскиваем и кладем новые вершины.
-
-BFS:
-
-- поиск кратчайшего пути
-- открыть замок с помощью комбинаций
-
-| Level  | Name                                                | Link                                                                         | Done | Repeatable |
-|:------:|:----------------------------------------------------|:-----------------------------------------------------------------------------|:----:|:----------:|
-| Medium | 841. Keys and Rooms                                 | https://leetcode.com/problems/keys-and-rooms/                                | Done |     *      |
-| Medium | 1971. Find if Path Exists in Graph                  | https://leetcode.com/problems/find-if-path-exists-in-graph/                  | Done |     *      |
-| Medium | 133. Clone Graph                                    | https://leetcode.com/problems/clone-graph/                                   | Done |     *      |
-| Medium | 1557. Minimum Number of Vertices to Reach All Nodes | https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/ | Done |     *      |
-
----
-
-# 15. Graph, part 1
-
-| Level  | Name                                                         | Link                                                                                  | Done | Repeatable |
-|:------:|:-------------------------------------------------------------|:--------------------------------------------------------------------------------------|:----:|:----------:|
-| Medium | 547. Number of Provinces                                     | https://leetcode.com/problems/number-of-provinces/                                    | Done |     *      |
-| Medium | 200. Number of Islands                                       | https://leetcode.com/problems/number-of-islands/                                      | Done |     *      |
-| Medium | 1466. Reorder Routes to Make All Paths Lead to the City Zero | https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/ | Done |     *      |
-| Medium | 695. Max Area of Island                                      | https://leetcode.com/problems/max-area-of-island/                                     | Done |     *      |
-| Medium | 2368. Reachable Nodes With Restrictions                      | https://leetcode.com/problems/reachable-nodes-with-restrictions/                      | Done |     *      |
-| Medium | 542. 01 Matrix                                               | https://leetcode.com/problems/01-matrix/                                              | Done |     *      |
-
----
-
-# 16. Graph, part 2
-
-| Level  | Name                                        | Link                                                                 | Done | Repeatable |
-|:------:|:--------------------------------------------|:---------------------------------------------------------------------|:----:|:----------:|
-| Medium | 1129. Shortest Path with Alternating Colors | https://leetcode.com/problems/shortest-path-with-alternating-colors/ | Done |     *      | 
-| Medium | 1926. Nearest Exit from Entrance in Maze    | https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/    | Done |     *      | 
-| Medium | 1091. Shortest Path in Binary Matrix        | https://leetcode.com/problems/shortest-path-in-binary-matrix/        | Done |     *      | 
-| Medium | 752. Open the Lock                          | https://leetcode.com/problems/open-the-lock/                         | Done |     *      |
-| Medium | 433. Minimum Genetic Mutation               | https://leetcode.com/problems/minimum-genetic-mutation/              | Done |     *      |
-| Medium | 994. Rotting Oranges                        | https://leetcode.com/problems/rotting-oranges/                       | Done |     *      |
-
----
-
-# 17. Dijkstra
-
-Алгоритм Дейкстры - это поиск кратчайшего пути по графу, где вершины графа соединены ребрами, у каждого из которых есть
-вес.
-
-Алгоритм А* (А-стар) - это Дейкстра + функция, которая выдает значения в зависимости от приближения или удаления от
-цели.
-
-| Level  | Name                                 | Link                                                           | Done | Repeatable |
-|:------:|:-------------------------------------|:---------------------------------------------------------------|:----:|:----------:|
-| Medium | 743. Network Delay Time              | https://leetcode.com/problems/network-delay-time/              | Done |     *      | 
-| Medium | 1514. Path with Maximum Probability  | https://leetcode.com/problems/path-with-maximum-probability/   | Done |     *      | 
-| Medium | 787. Cheapest Flights Within K Stops | https://leetcode.com/problems/cheapest-flights-within-k-stops/ | Done |     *      | 
-
----
-
-# 18. Topological sort, part 1
-
-Топологическая сортировка - перейти от базовых компонентов к составным компонентам (пример с приготовлением бутерброда).
-
-Топологическая сортировка решает задачу: можем ли мы достигнуть какой-то ноды или нет. Достижимость ноды означает:
-сможем ли мы выполнить все условия для достижения ноды.
-
-| Level  | Name                                                | Link                                                                         | Done | Repeatable |
-|:------:|:----------------------------------------------------|:-----------------------------------------------------------------------------|:----:|:----------:|
-| Medium | 2115. Find All Possible Recipes from Given Supplies | https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/ | Done |     *      | 
-
----
-
-# 19. Topological sort, part 2
-
-Алгоритм Кана - поместить все ноды в мапу с количеством зависимостей, пройтись по графу и уменьшать зависимости.
-
-| Level  | Name                    | Link                                              | Done | Repeatable |
-|:------:|:------------------------|:--------------------------------------------------|:----:|:----------:|
-| Medium | 207. Course Schedule    | https://leetcode.com/problems/course-schedule/    | Done |     *      | 
-| Medium | 210. Course Schedule II | https://leetcode.com/problems/course-schedule-ii/ | Done |     *      | 
-
----
-
-# 20. Backtracking, part 1
-
-Backtracking - перевод с возвратом (например валидная скобочная последовательность). Exaustive Search - перебор всего,
-при этом отрезание заранее невалидных путей (веток).
-
-Backtracking - один из подходов решений задач на перебор.
-
-| Level  | Name                     | Link                                                | Done | Repeatable |
-|:------:|:-------------------------|:----------------------------------------------------|:----:|:----------:|
-| Medium | 46. Permutations         | https://leetcode.com/problems/permutations/         | Done |     *      |
-| Medium | 77. Combinations         | https://leetcode.com/problems/combinations/         | Done |     *      |
-| Medium | 78. Subsets              | https://leetcode.com/problems/subsets/              | Done |     *      |
-| Medium | 22. Generate Parentheses | https://leetcode.com/problems/generate-parentheses/ | Done |     *      |
-
----
-
-# 21. Backtracking, part 2
-
-**Инвариант**: Теперь, когда будешь решать задачи, спрашивай себя: "А что здесь никогда не меняется?" Это и будет твой
-инвариант!
-
-| Level  | Name                                      | Link                                                                 | Done | Repeatable |
-|:------:|:------------------------------------------|:---------------------------------------------------------------------|:----:|:----------:|
-| Medium | 216. Combination Sum III                  | https://leetcode.com/problems/combination-sum-iii/                   | Done |     *      |
-| Medium | 17. Letter Combinations of a Phone Number | https://leetcode.com/problems/letter-combinations-of-a-phone-number/ | Done |     *      |
-|  Hard  | 51. N-Queens                              | https://leetcode.com/problems/n-queens/                              | Done |     *      |
-|  Hard  | 489. Robot room cleaner                   | https://leetcode.com/problems/robot-room-cleaner/                    | Done |     *      |
-
----
-
-# 22. Dynamic Programming, part 1
-
-Суть динамического программирования - это способ решения задач, когда исходная задача разбивается на подзадачи,
-переиспользуются пересекающиеся решения подзадач, которые оптимизируют решение основной задачи.
-
-Dynamic Programming
-
-- Top Down - кеш в fib(n)
-- Bottom Up - можно строить снизу вверх как в массиве.
-
-Подход по решению задач на динамическое программирование:
-
-1. Вы пишите наивный подход - сверху вниз переборами.
-2. Вы находите базовый случай.
-3. Вы ищите где в переборном подходе появляются пересечения.
-4. Вы кешируете пересечения.
-5. Вы раскручиваете снизу вверх Bottom Up пересечения от базового случая.
-6. Вы смотрите, когда раскручиваете снизу вверх, а сколько надо держать предыдущих значений, - может быть не все (может
-   быть хватит двоих).
-7. Вы оптимизируете решение.
-
-| Level  | Name                          | Link                                                    | Done | Repeatable |
-|:------:|:------------------------------|:--------------------------------------------------------|:----:|:----------:|
-|  Easy  | 509. Fibonacci Number         | https://leetcode.com/problems/fibonacci-number/         | Done |    ***     | 
-|  Easy  | 70. Climbing Stairs           | https://leetcode.com/problems/climbing-stairs/          | Done |    ***     | 
-|  Easy  | 746. Min Cost Climbing Stairs | https://leetcode.com/problems/min-cost-climbing-stairs/ | Done |    ***     | 
-| Medium | 322. Coin Change              | https://leetcode.com/problems/coin-change/              | Done |    ***     |
-| Medium | 198. House Robber             | https://leetcode.com/problems/house-robber/             | Done |    ***     |
-
----
-
-# 23. Dynamic Programming, part 2
-
-| Level  | Name                 | Link                                            | Done | Repeatable |
-|:------:|:---------------------|:------------------------------------------------|:----:|:----------:|
-| Medium | 91. Decode Ways      | https://leetcode.com/problems/decode-ways/      | Done |     *      |
-| Medium | 62. Unique Paths     | https://leetcode.com/problems/unique-paths/     | Done |     *      |
-| Medium | 64. Minimum Path Sum | https://leetcode.com/problems/minimum-path-sum/ | Done |     *      |            |
-| Medium | 72. Edit Distance    | https://leetcode.com/problems/edit-distance/    | Done |     *      |
-
----
+# Linked Lists & Trees
+
+## 1. Linked List
+
+| Level  | Name                                          | Link                                                                   | Retention |
+|:------:|:----------------------------------------------|:-----------------------------------------------------------------------|:----------|
+| Medium | 707. Design Linked List                       | https://leetcode.com/problems/design-linked-list/                      |           |
+|  Easy  | 876. Middle of the Linked List                | https://leetcode.com/problems/middle-of-the-linked-list/               |           |
+| Medium | 2095. Delete the Middle Node of a Linked List | https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/ |           |
+|  Easy  | 206. Reverse Linked List                      | https://leetcode.com/problems/reverse-linked-list/                     |           |
+|  Easy  | 234. Palindrome Linked List                   | https://leetcode.com/problems/palindrome-linked-list/                  |           |
+|  Easy  | 83. Remove Duplicates from Sorted List        | https://leetcode.com/problems/remove-duplicates-from-sorted-list/      |           |
+| Medium | 19. Remove Nth Node From End of List          | https://leetcode.com/problems/remove-nth-node-from-end-of-list/        |           |
+| Medium | 24. Swap Nodes in Pairs                       | https://leetcode.com/problems/swap-nodes-in-pairs/                     |           |
+|  Easy  | 21. Merge Two Sorted Lists                    | https://leetcode.com/problems/merge-two-sorted-lists/                  |           |
+|  Easy  | 141. Linked List Cycle                        | https://leetcode.com/problems/linked-list-cycle/                       |           |
+| Medium | 146. LRU Cache                                | https://leetcode.com/problems/lru-cache/                               |           |
+
+## 2. Binary Tree DFS
+
+| Level | Name                              | Link                                                        | Retention |
+|:-----:|:----------------------------------|:------------------------------------------------------------|:----------|
+| Easy  | 104. Maximum Depth of Binary Tree | https://leetcode.com/problems/maximum-depth-of-binary-tree/ |           |
+| Easy  | 226. Invert Binary Tree           | https://leetcode.com/problems/invert-binary-tree/           |           |
+| Easy  | 100. Same Tree                    | https://leetcode.com/problems/same-tree/                    |           |
+| Easy  | 101. Symmetric Tree               | https://leetcode.com/problems/symmetric-tree/               |           |
+| Easy  | 112. Path Sum                     | https://leetcode.com/problems/path-sum/                     |           |
+
+## 3. Binary Tree BFS
+
+| Level  | Name                                                | Link                                                                          | Retention |
+|:------:|:----------------------------------------------------|:------------------------------------------------------------------------------|:----------|
+| Medium | 102. Binary Tree Level Order Traversal              | https://leetcode.com/problems/binary-tree-level-order-traversal/              |           |
+| Medium | 515. Find Largest Value in Each Tree Row            | https://leetcode.com/problems/find-largest-value-in-each-tree-row/            |           |
+| Medium | 199. Binary Tree Right Side View                    | https://leetcode.com/problems/binary-tree-right-side-view/                    |           |
+| Medium | 117. Populating Next Right Pointers in Each Node II | https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/ |           |
+| Medium | 236. Lowest Common Ancestor of a Binary Tree        | https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/        |           |
+| Medium | 1325. Delete Leaves With a Given Value              | https://leetcode.com/problems/delete-leaves-with-a-given-value/               |           |
+| Medium | 1302. Deepest Leaves Sum                            | https://leetcode.com/problems/deepest-leaves-sum/                             |           |
+|  Easy  | 543. Diameter of Binary Tree                        | https://leetcode.com/problems/diameter-of-binary-tree/                        |           |
+| Medium | 103. Binary Tree Zigzag Level Order Traversal       | https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/       |           |
+
+## 4. Binary Search Tree BST
+
+| Level  | Name                                  | Link                                                            | Retention |
+|:------:|:--------------------------------------|:----------------------------------------------------------------|:----------|
+|  Easy  | 700. Search in a Binary Search Tree   | https://leetcode.com/problems/search-in-a-binary-search-tree/   |           |
+| Medium | 701. Insert into a Binary Search Tree | https://leetcode.com/problems/insert-into-a-binary-search-tree/ |           |
+| Medium | 98. Validate Binary Search Tree       | https://leetcode.com/problems/validate-binary-search-tree/      |           |
+|  Easy  | 110. Balanced Binary Tree             | https://leetcode.com/problems/balanced-binary-tree/             |           |
+
+## 5. Trie
+
+| Level  | Name                              | Link                                                      | Retention |
+|:------:|:----------------------------------|:----------------------------------------------------------|:----------|
+| Medium | 208. Implement Trie (Prefix Tree) | https://leetcode.com/problems/implement-trie-prefix-tree/ |           |
+| Medium | 1268. Search Suggestions System   | https://leetcode.com/problems/search-suggestions-system/  |           |
+
+## 6. Heap
+
+| Level  | Name                                      | Link                                                               | Retention |
+|:------:|:------------------------------------------|:-------------------------------------------------------------------|:----------|
+| Medium | 215. Kth Largest Element in an Array      | https://leetcode.com/problems/kth-largest-element-in-an-array/     | *         |
+|  Easy  | 703. Kth Largest Element in a Stream      | https://leetcode.com/problems/kth-largest-element-in-a-stream/     | *         |
+| Medium | 347. Top K Frequent Elements              | https://leetcode.com/problems/top-k-frequent-elements/             | *         |
+| Medium | 451. Sort Characters By Frequency         | https://leetcode.com/problems/sort-characters-by-frequency/        | *         |
+|  Easy  | 1046. Last Stone Weight                   | https://leetcode.com/problems/last-stone-weight/                   |           |
+|  Hard  | 502. IPO                                  | https://leetcode.com/problems/ipo/                                 |           |
+|  Hard  | 295. Find Median from Data Stream         | https://leetcode.com/problems/find-median-from-data-stream/        |           |
+| Medium | 1962. Remove Stones to Minimize the Total | https://leetcode.com/problems/remove-stones-to-minimize-the-total/ |           |
+|  Hard  | 23. Merge k Sorted Lists                  | https://leetcode.com/problems/merge-k-sorted-lists/                |           |
+
+# Graphs
+
+## 1. Graph General
+
+| Level  | Name                                                | Link                                                                         | Retention |
+|:------:|:----------------------------------------------------|:-----------------------------------------------------------------------------|:----------|
+| Medium | 841. Keys and Rooms                                 | https://leetcode.com/problems/keys-and-rooms/                                |           |
+| Medium | 1971. Find if Path Exists in Graph                  | https://leetcode.com/problems/find-if-path-exists-in-graph/                  |           |
+| Medium | 133. Clone Graph                                    | https://leetcode.com/problems/clone-graph/                                   |           |
+| Medium | 1557. Minimum Number of Vertices to Reach All Nodes | https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/ |           |
+
+## 2. Graph DFS
+
+| Level  | Name                                                         | Link                                                                                  | Retention |
+|:------:|:-------------------------------------------------------------|:--------------------------------------------------------------------------------------|:----------|
+| Medium | 547. Number of Provinces                                     | https://leetcode.com/problems/number-of-provinces/                                    |           |
+| Medium | 200. Number of Islands                                       | https://leetcode.com/problems/number-of-islands/                                      |           |
+| Medium | 1466. Reorder Routes to Make All Paths Lead to the City Zero | https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/ |           |
+| Medium | 695. Max Area of Island                                      | https://leetcode.com/problems/max-area-of-island/                                     |           |
+| Medium | 2368. Reachable Nodes With Restrictions                      | https://leetcode.com/problems/reachable-nodes-with-restrictions/                      |           |
+| Medium | 542. 01 Matrix                                               | https://leetcode.com/problems/01-matrix/                                              |           |
+
+## 3. Graph BFS
+
+| Level  | Name                                        | Link                                                                 | Retention |
+|:------:|:--------------------------------------------|:---------------------------------------------------------------------|:----------|
+| Medium | 1129. Shortest Path with Alternating Colors | https://leetcode.com/problems/shortest-path-with-alternating-colors/ |           | 
+| Medium | 1926. Nearest Exit from Entrance in Maze    | https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/    |           | 
+| Medium | 1091. Shortest Path in Binary Matrix        | https://leetcode.com/problems/shortest-path-in-binary-matrix/        |           | 
+| Medium | 752. Open the Lock                          | https://leetcode.com/problems/open-the-lock/                         |           |
+| Medium | 433. Minimum Genetic Mutation               | https://leetcode.com/problems/minimum-genetic-mutation/              |           |
+| Medium | 994. Rotting Oranges                        | https://leetcode.com/problems/rotting-oranges/                       |           |
+
+## 4. Dijkstra
+
+| Level  | Name                                 | Link                                                           | Retention |
+|:------:|:-------------------------------------|:---------------------------------------------------------------|:----------|
+| Medium | 743. Network Delay Time              | https://leetcode.com/problems/network-delay-time/              |           | 
+| Medium | 1514. Path with Maximum Probability  | https://leetcode.com/problems/path-with-maximum-probability/   |           | 
+| Medium | 787. Cheapest Flights Within K Stops | https://leetcode.com/problems/cheapest-flights-within-k-stops/ |           | 
+
+## 5. Topological sort
+
+| Level  | Name                                                | Link                                                                         | Retention |
+|:------:|:----------------------------------------------------|:-----------------------------------------------------------------------------|:----------|
+| Medium | 2115. Find All Possible Recipes from Given Supplies | https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/ |           | 
+| Medium | 207. Course Schedule                                | https://leetcode.com/problems/course-schedule/                               |           | 
+| Medium | 210. Course Schedule II                             | https://leetcode.com/problems/course-schedule-ii/                            |           | 
+
+## Backtracking
+
+| Level  | Name                                      | Link                                                                 | Retention |
+|:------:|:------------------------------------------|:---------------------------------------------------------------------|:----------|
+| Medium | 46. Permutations                          | https://leetcode.com/problems/permutations/                          |           |
+| Medium | 77. Combinations                          | https://leetcode.com/problems/combinations/                          |           |
+| Medium | 78. Subsets                               | https://leetcode.com/problems/subsets/                               |           |
+| Medium | 22. Generate Parentheses                  | https://leetcode.com/problems/generate-parentheses/                  |           |
+| Medium | 216. Combination Sum III                  | https://leetcode.com/problems/combination-sum-iii/                   |           |
+| Medium | 17. Letter Combinations of a Phone Number | https://leetcode.com/problems/letter-combinations-of-a-phone-number/ |           |
+|  Hard  | 51. N-Queens                              | https://leetcode.com/problems/n-queens/                              |           |
+|  Hard  | 489. Robot room cleaner                   | https://leetcode.com/problems/robot-room-cleaner/                    |           |
+
+## Dynamic Programming
+
+| Level  | Name                          | Link                                                    | Retention |
+|:------:|:------------------------------|:--------------------------------------------------------|:----------|
+|  Easy  | 509. Fibonacci Number         | https://leetcode.com/problems/fibonacci-number/         |           | 
+|  Easy  | 70. Climbing Stairs           | https://leetcode.com/problems/climbing-stairs/          |           | 
+|  Easy  | 746. Min Cost Climbing Stairs | https://leetcode.com/problems/min-cost-climbing-stairs/ |           | 
+| Medium | 322. Coin Change              | https://leetcode.com/problems/coin-change/              |           |
+| Medium | 198. House Robber             | https://leetcode.com/problems/house-robber/             |           |
+| Medium | 91. Decode Ways               | https://leetcode.com/problems/decode-ways/              |           |
+| Medium | 62. Unique Paths              | https://leetcode.com/problems/unique-paths/             |           |
+| Medium | 64. Minimum Path Sum          | https://leetcode.com/problems/minimum-path-sum/         |           |            |
+| Medium | 72. Edit Distance             | https://leetcode.com/problems/edit-distance/            |           |
 
 ## 8. Linked List
 
@@ -706,8 +406,6 @@ Dynamic Programming
 | Medium | 138. Copy List with Random Pointer   | https://leetcode.com/problems/copy-list-with-random-pointer/    | 5         |
 | Medium | 24. Swap Nodes in Pairs              | https://leetcode.com/problems/swap-nodes-in-pairs/              | 2         |
 
----
-
 ## 9. Binary Tree (DFS)
 
 | Level  | Name                                                           | Link                                                                                     | Retention |
@@ -721,8 +419,6 @@ Dynamic Programming
 | Medium | 236. Lowest Common Ancestor of a Binary Tree                   | https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/                   | 3         |
 | Medium | 105. Construct Binary Tree from Preorder and Inorder Traversal | https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/ | 2         |
 | Medium | 114. Flatten Binary Tree to Linked List                        | https://leetcode.com/problems/flatten-binary-tree-to-linked-list/                        | 2         |
-
----
 
 ## 10. Binary Tree (BFS)
 
@@ -739,8 +435,6 @@ Dynamic Programming
 | Medium | 116. Populating Next Right Pointers in Each Node    | https://leetcode.com/problems/populating-next-right-pointers-in-each-node/    | 5         |
 | Medium | 987. Vertical Order Traversal of a Binary Tree      | https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/      | 1         |
 
----
-
 ## 11. Binary Search Tree (BST)
 
 | Level  | Name                                            | Link                                                                      | Retention |
@@ -754,8 +448,6 @@ Dynamic Programming
 | Medium | 230. Kth Smallest Element in a BST              | https://leetcode.com/problems/kth-smallest-element-in-a-bst/              | 3         |
 | Medium | 173. Binary Search Tree Iterator                | https://leetcode.com/problems/binary-search-tree-iterator/                | 2         |
 | Medium | 538. Convert BST to Greater Tree                | https://leetcode.com/problems/convert-bst-to-greater-tree/                | 1         |
-
----
 
 ## 12. Backtracking
 
@@ -946,7 +638,6 @@ Distinct Characters,Medium,49.9%,50.0%
 350,https://leetcode.com/problems/intersection-of-two-arrays-ii,Intersection of Two Arrays II,Easy,59.7%,37.5%
 356,https://leetcode.com/problems/line-reflection,Line Reflection,Medium,36.3%,75.0%
 362,https://leetcode.com/problems/design-hit-counter,Design Hit Counter,Medium,69.6%,50.0%
-380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.3%,75.0%
 387,https://leetcode.com/problems/first-unique-character-in-a-string,First Unique Character in a String,Easy,65.0%,37.5%
 395,https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters,Longest Substring with At Least
 K Repeating Characters,Medium,46.0%,25.0%
@@ -1036,7 +727,7 @@ Continuous Subarray With Absolute Diff Less Than or Equal to Limit,Medium,57.3%,
 
 Недостающие задачи (есть в итоговом списке, нет в вашем)
 Тема ID недостающих задач
-Hash Map 146, 205, 349, 350, 380, 387, 652, 771, 1436
+Hash Map 146, 205, 349, 350, 387, 652, 771, 1436
 Binary Search 4, 33
 Two Pointers 680
 Sliding Window 340, 395, 485, 487
@@ -1086,7 +777,6 @@ Backtracking 17, 22
    ID Название Уровень Частота
    146 LRU Cache Medium 50%
    341 Flatten Nested List Iterator Medium 25%
-   380 Insert Delete GetRandom O(1)    Medium 75%
    362 Design Hit Counter Medium 50%
    1656 Design an Ordered Stream Easy 25%
    2043 Simple Bank System Medium 25%
@@ -1134,8 +824,8 @@ Backtracking 17, 22
 
 Тема ID задач
 Array 4, 33, 35, 53, 56, 74, 153, 200, 228, 238, 300, 322, 349, 350,
-380, 485, 560, 605, 674, 849, 881, 896, 1868, 2215, 2570, 2956, 2006
-Hash Table 205, 242, 349, 350, 380, 387, 438, 523, 560, 652, 771, 1436, 1656, 2043, 2215,
+485, 560, 605, 674, 849, 881, 896, 1868, 2215, 2570, 2956, 2006
+Hash Table 205, 242, 349, 350, 387, 438, 523, 560, 652, 771, 1436, 1656, 2043, 2215,
 2657, 2956, 2006
 String 5, 13, 17, 20, 22, 49, 68, 71, 76, 161, 205, 227, 242, 332, 340, 387, 395, 415, 424, 438, 443, 567,
 680, 771
@@ -1149,7 +839,7 @@ Heap / Priority Queue 23, 239, 295, 347, 658
 Math 7, 9, 13, 415, 470
 Backtracking 17, 22
 Dynamic Programming 53, 279, 300, 322, 674
-Design 146, 155, 232, 341, 362, 380, 933, 1656, 2043, 2241, 2627, 2629, 2665, 2666, 2667
+Design 146, 155, 232, 341, 362, 933, 1656, 2043, 2241, 2627, 2629, 2665, 2666, 2667
 Sorting 56, 242, 347, 349, 350
 Matrix 74, 1572
 SQL 181
