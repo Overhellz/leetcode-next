@@ -132,14 +132,14 @@ https://leetcode.com/studyplan/leetcode-75/
 | Medium | 380. Insert Delete GetRandom O(1)                      | https://leetcode.com/problems/insert-delete-getrandom-o1/                         | 2         |
 | Medium | 238. Product of Array Except Self                      | https://leetcode.com/problems/product-of-array-except-self/                       | .         |
 | Medium | 134. Gas Station                                       | https://leetcode.com/problems/gas-station/                                        | 2         |
-| Medium | 135. Candy                                             | https://leetcode.com/problems/candy/                                              |           |
-| Medium | 42. Trapping Rain Water                                | https://leetcode.com/problems/trapping-rain-water/                                |           |
+|  Hard  | 135. Candy                                             | https://leetcode.com/problems/candy/                                              | 2         |
+|  Hard  | 42. Trapping Rain Water                                | https://leetcode.com/problems/trapping-rain-water/                                | 2         |
 | Medium | 13. Roman to Integer                                   | https://leetcode.com/problems/roman-to-integer/                                   | 2         |
 | Medium | 12. Integer to Roman                                   | https://leetcode.com/problems/integer-to-roman/                                   | 2         |
 |  Easy  | 58. Length of Last Word                                | https://leetcode.com/problems/length-of-last-word/                                | 4         |
 |  Easy  | 14. Longest Common Prefix                              | https://leetcode.com/problems/longest-common-prefix/                              | 2         |
 | Medium | 151. Reverse Words in a String                         | https://leetcode.com/problems/reverse-words-in-a-string/                          | 2         |
-| Medium | 6. Zigzag Conversion                                   | https://leetcode.com/problems/zigzag-conversion/                                  |           |
+| Medium | 6. Zigzag Conversion                                   | https://leetcode.com/problems/zigzag-conversion/                                  | 2         |
 |  Easy  | 28. Find the Index of the First Occurrence in a String | https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/ |           |
 |  Hard  | 68. Text Justification                                 | https://leetcode.com/problems/text-justification/                                 |           |
 
