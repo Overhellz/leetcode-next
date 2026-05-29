@@ -2,19 +2,7 @@
 
 https://github.com/Overhellz/leetcode-next
 
----
-
-# Leetcode Badges
-
-## Top 100 Liked
-
-https://leetcode.com/studyplan/top-100-liked/
-
-## LeetCode 75
-
-https://leetcode.com/studyplan/leetcode-75/
-
----
+### Retention
 
 | Retention | Description                                                         |
 |:---------:|:--------------------------------------------------------------------|
@@ -25,6 +13,8 @@ https://leetcode.com/studyplan/leetcode-75/
 |     1     | Полный провал (не распознал задачу).                                |
 
 ---
+
+# Leetcode Badges
 
 ## Top Interview 150
 
@@ -58,115 +48,9 @@ https://leetcode.com/studyplan/top-interview-150/
 | Medium | 6. Zigzag Conversion                                   | https://leetcode.com/problems/zigzag-conversion/                                  | 2         |
 |  Easy  | 28. Find the Index of the First Occurrence in a String | https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/ | 2         |
 |  Hard  | 68. Text Justification                                 | https://leetcode.com/problems/text-justification/                                 | 1         |
-|  Easy  | 1768. Merge Strings Alternately                        | https://leetcode.com/problems/merge-strings-alternately/                          |           |
-|  Easy  | 1071. Greatest Common Divisor of Strings               | https://leetcode.com/problems/greatest-common-divisor-of-strings/                 |           |
-|  Easy  | 1431. Kids With the Greatest Number of Candies         | https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/           |           |
-|  Easy  | 605. Can Place Flowers                                 | https://leetcode.com/problems/can-place-flowers/                                  |           |
-|  Easy  | 345. Reverse Vowels of a String                        | https://leetcode.com/problems/reverse-vowels-of-a-string/                         |           |
-| Medium | 334. Increasing Triplet Subsequence                    | https://leetcode.com/problems/increasing-triplet-subsequence/                     |           |
-| Medium | 443. String Compression                                | https://leetcode.com/problems/string-compression/                                 |           |
 
+### Two Pointers
 
-
-
-
-Merge Sorted Array
-Solution
-Easy
-
-Remove Element
-Solution
-Easy
-
-Remove Duplicates from Sorted Array
-Solution
-Easy
-
-Remove Duplicates from Sorted Array II
-Solution
-Medium
-
-Majority Element
-Solution
-Easy
-
-Rotate Array
-Solution
-Medium
-
-Best Time to Buy and Sell Stock
-Solution
-Easy
-
-Best Time to Buy and Sell Stock II
-Solution
-Medium
-
-Jump Game
-Solution
-Medium
-
-Jump Game II
-Solution
-Medium
-
-H-Index
-Solution
-Medium
-
-Insert Delete GetRandom O(1)
-Solution
-Medium
-
-Product of Array Except Self
-Solution
-Medium
-
-Gas Station
-Solution
-Medium
-
-Candy
-Solution
-Hard
-
-Trapping Rain Water
-Solution
-Hard
-
-Roman to Integer
-Solution
-Easy
-
-Integer to Roman
-Solution
-Medium
-
-Length of Last Word
-Solution
-Easy
-
-Longest Common Prefix
-Solution
-Easy
-
-Reverse Words in a String
-Solution
-Medium
-
-Zigzag Conversion
-Solution
-Medium
-
-Find the Index of the First Occurrence in a String
-Solution
-Easy
-
-Text Justification
-Solution
-Hard
-
-Two Pointers
 Valid Palindrome
 Solution
 Easy
@@ -205,7 +89,8 @@ Minimum Window Substring
 Solution
 Hard
 
-Matrix
+### Matrix
+
 Valid Sudoku
 Solution
 Medium
@@ -263,7 +148,7 @@ Longest Consecutive Sequence
 Solution
 Medium
 
-Intervals
+### Intervals
 Summary Ranges
 Solution
 Easy
@@ -302,7 +187,8 @@ Basic Calculator
 Solution
 Hard
 
-Linked List
+### Linked List
+
 Linked List Cycle
 Solution
 Easy
@@ -423,7 +309,8 @@ Binary Tree Zigzag Level Order Traversal
 Solution
 Medium
 
-Binary Search Tree
+### Binary Search Tree
+
 Minimum Absolute Difference in BST
 Solution
 Easy
@@ -436,7 +323,8 @@ Validate Binary Search Tree
 Solution
 Medium
 
-Graph General
+### Graph General
+
 Number of Islands
 Solution
 Medium
@@ -489,7 +377,8 @@ Word Search II
 Solution
 Hard
 
-Backtracking
+### Backtracking
+
 Letter Combinations of a Phone Number
 Solution
 Medium
@@ -518,7 +407,8 @@ Word Search
 Solution
 Medium
 
-Divide & Conquer
+### Divide & Conquer
+
 Convert Sorted Array to Binary Search Tree
 Solution
 Easy
@@ -535,7 +425,8 @@ Merge k Sorted Lists
 Solution
 Hard
 
-Kadane's Algorithm
+### Kadane's Algorithm
+
 Maximum Subarray
 Solution
 Medium
@@ -544,7 +435,8 @@ Maximum Sum Circular Subarray
 Solution
 Medium
 
-Binary Search
+### Binary Search
+
 Search Insert Position
 Solution
 Easy
@@ -698,10 +590,9 @@ Maximal Square
 Solution
 Medium
 
-
-
-
 ----------------
+
+## Top 100 Liked
 
 https://leetcode.com/studyplan/top-100-liked/
 
@@ -889,7 +780,8 @@ Longest Common Subsequence
 Solution
 Medium
 
-Graph
+### Graph
+
 Number of Islands
 Solution
 Medium
@@ -936,7 +828,8 @@ Subarray Sum Equals K
 Solution
 Medium
 
-Heap
+### Heap
+
 Kth Largest Element in an Array
 Solution
 Medium
@@ -1007,7 +900,8 @@ Palindrome Linked List
 Solution
 Easy
 
-Matrix
+### Matrix
+
 Rotate Image
 Solution
 Medium
@@ -1130,55 +1024,25 @@ Find the Duplicate Number
 Solution
 Medium
 
-Set up a study plan
-Weekly Ranking
-150
-
-
-
-
 ----------------------
 
+## LeetCode 75
 
 https://leetcode.com/studyplan/leetcode-75/
 
 ### Array / String
 
-Merge Strings Alternately
-Solution
-Easy
-
-Greatest Common Divisor of Strings
-Solution
-Easy
-
-Kids With the Greatest Number of Candies
-Solution
-Easy
-
-Can Place Flowers
-Solution
-Easy
-
-Reverse Vowels of a String
-Solution
-Easy
-
-Reverse Words in a String
-Solution
-Medium
-
-Product of Array Except Self
-Solution
-Medium
-
-Increasing Triplet Subsequence
-Solution
-Medium
-
-String Compression
-Solution
-Medium
+| Level  | Name                                     | Link                                                                    | Retention |
+|:------:|:-----------------------------------------|:------------------------------------------------------------------------|:----------|
+|  Easy  | 1768. Merge Strings Alternately          | https://leetcode.com/problems/merge-strings-alternately/                |           |
+|  Easy  | 1071. Greatest Common Divisor of Strings | https://leetcode.com/problems/greatest-common-divisor-of-strings/       |           |
+|  Easy  | Kids With the Greatest Number of Candies | https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/ |           |
+|  Easy  | Can Place Flowers                        |                                                                         |           |
+|  Easy  | Reverse Vowels of a String               |                                                                         |           |
+| Medium | 238. Product of Array Except Self        | https://leetcode.com/problems/product-of-array-except-self/             |           |
+| Medium | 151. Reverse Words in a String           | https://leetcode.com/problems/reverse-words-in-a-string/                |           |
+| Medium | Increasing Triplet Subsequence           |                                                                         |           |
+| Medium | String Compression                       |                                                                         |           |
 
 ### Two Pointers
 
@@ -1216,7 +1080,8 @@ Longest Subarray of 1's After Deleting One Element
 Solution
 Medium
 
-Prefix Sum
+### Prefix Sum
+
 Find the Highest Altitude
 Solution
 Easy
@@ -1225,7 +1090,8 @@ Find Pivot Index
 Solution
 Easy
 
-Hash Map / Set
+### Hash Map / Set
+
 Find the Difference of Two Arrays
 Solution
 Easy
@@ -1265,7 +1131,8 @@ Dota2 Senate
 Solution
 Medium
 
-Linked List
+### Linked List
+
 Delete the Middle Node of a Linked List
 Solution
 Medium
@@ -1316,7 +1183,8 @@ Maximum Level Sum of a Binary Tree
 Solution
 Medium
 
-Binary Search Tree
+### Binary Search Tree
+
 Search in a Binary Search Tree
 Solution
 Easy
@@ -1385,7 +1253,14 @@ Koko Eating Bananas
 Solution
 Medium
 
-Backtracking
+---
+
+## Top 100 Liked
+
+https://leetcode.com/studyplan/top-100-liked/
+
+### Backtracking
+
 Letter Combinations of a Phone Number
 Solution
 Medium
