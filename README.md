@@ -549,10 +549,10 @@ https://leetcode.com/studyplan/leetcode-75/
 |  Easy  | 746. Min Cost Climbing Stairs | https://leetcode.com/problems/min-cost-climbing-stairs/ |           | 
 | Medium | 322. Coin Change              | https://leetcode.com/problems/coin-change/              |           |
 | Medium | 198. House Robber             | https://leetcode.com/problems/house-robber/             |           |
-| Medium | 91. Decode Ways      | https://leetcode.com/problems/decode-ways/      |           |
-| Medium | 62. Unique Paths     | https://leetcode.com/problems/unique-paths/     |           |
-| Medium | 64. Minimum Path Sum | https://leetcode.com/problems/minimum-path-sum/ |           |            |
-| Medium | 72. Edit Distance    | https://leetcode.com/problems/edit-distance/    |           |
+| Medium | 91. Decode Ways               | https://leetcode.com/problems/decode-ways/              |           |
+| Medium | 62. Unique Paths              | https://leetcode.com/problems/unique-paths/             |           |
+| Medium | 64. Minimum Path Sum          | https://leetcode.com/problems/minimum-path-sum/         |           |            |
+| Medium | 72. Edit Distance             | https://leetcode.com/problems/edit-distance/            |           |
 
 ---
 
