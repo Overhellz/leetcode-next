@@ -51,141 +51,65 @@ https://leetcode.com/studyplan/top-interview-150/
 
 ### Two Pointers
 
-Valid Palindrome
-Solution
-Easy
-
-Is Subsequence
-Solution
-Easy
-
-Two Sum II - Input Array Is Sorted
-Solution
-Medium
-
-Container With Most Water
-Solution
-Medium
-
-3Sum
-Solution
-Medium
+| Level  | Name                                    | Link                                                            | Retention |
+|:------:|:----------------------------------------|:----------------------------------------------------------------|:----------|
+|  Easy  | 125. Valid Palindrome                   | https://leetcode.com/problems/valid-palindrome/                 | 5         |
+|  Easy  | 392. Is Subsequence                     | https://leetcode.com/problems/is-subsequence/                   | 5         |
+| Medium | 167. Two Sum II - Input Array Is Sorted | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/ | 5         |
+| Medium | 11. Container With Most Water           | https://leetcode.com/problems/container-with-most-water/        | 5         |
+| Medium | 15. 3Sum                                | https://leetcode.com/problems/3sum/                             |           |
 
 ### Sliding Window
 
-Minimum Size Subarray Sum
-Solution
-Medium
-
-Longest Substring Without Repeating Characters
-Solution
-Medium
-
-Substring with Concatenation of All Words
-Solution
-Hard
-
-Minimum Window Substring
-Solution
-Hard
+| Level  | Name                                              | Link                                                                          | Retention |
+|:------:|:--------------------------------------------------|:------------------------------------------------------------------------------|:----------|
+| Medium | 209. Minimum Size Subarray Sum                    | https://leetcode.com/problems/minimum-size-subarray-sum/                      |           |
+| Medium | 3. Longest Substring Without Repeating Characters | https://leetcode.com/problems/longest-substring-without-repeating-characters/ |           |
+|  Hard  | 30. Substring with Concatenation of All Words     | https://leetcode.com/problems/substring-with-concatenation-of-all-words/      |           |
+|  Hard  | 76. Minimum Window Substring                      | https://leetcode.com/problems/minimum-window-substring/                       |           |
 
 ### Matrix
 
-Valid Sudoku
-Solution
-Medium
+| Level  | Name                  | Link                                             | Retention |
+|:------:|:----------------------|:-------------------------------------------------|:----------|
+| Medium | 36. Valid Sudoku      | https://leetcode.com/problems/valid-sudoku/      |           |
+| Medium | 54. Spiral Matrix     | https://leetcode.com/problems/spiral-matrix/     |           |
+| Medium | 48. Rotate Image      | https://leetcode.com/problems/rotate-image/      |           |
+| Medium | 73. Set Matrix Zeroes | https://leetcode.com/problems/set-matrix-zeroes/ |           |
+| Medium | 289. Game of Life     | https://leetcode.com/problems/game-of-life/      |           |
 
-Spiral Matrix
-Solution
-Medium
+### Hash Map
 
-Rotate Image
-Solution
-Medium
-
-Set Matrix Zeroes
-Solution
-Medium
-
-Game of Life
-Solution
-Medium
-
-Hashmap
-Ransom Note
-Solution
-Easy
-
-Isomorphic Strings
-Solution
-Easy
-
-Word Pattern
-Solution
-Easy
-
-Valid Anagram
-Solution
-Easy
-
-Group Anagrams
-Solution
-Medium
-
-Two Sum
-Solution
-Easy
-
-Happy Number
-Solution
-Easy
-
-Contains Duplicate II
-Solution
-Easy
-
-Longest Consecutive Sequence
-Solution
-Medium
+| Level  | Name                              | Link                                                        | Retention |
+|:------:|:----------------------------------|:------------------------------------------------------------|:----------|
+|  Easy  | 383. Ransom Note                  | https://leetcode.com/problems/ransom-note/                  |           |     
+|  Easy  | 205. Isomorphic Strings           | https://leetcode.com/problems/isomorphic-strings/           |           |     
+|  Easy  | 290. Word Pattern                 | https://leetcode.com/problems/word-pattern/                 |           |     
+|  Easy  | 242. Valid Anagram                | https://leetcode.com/problems/valid-anagram/                |           |     
+| Medium | 49. Group Anagrams                | https://leetcode.com/problems/group-anagrams/               |           |     
+|  Easy  | 1. Two Sum                        | https://leetcode.com/problems/two-sum/                      |           |     
+|  Easy  | 202. Happy Number                 | https://leetcode.com/problems/happy-number/                 |           |     
+|  Easy  | 219. Contains Duplicate II        | https://leetcode.com/problems/contains-duplicate-ii/        |           |     
+| Medium | 128. Longest Consecutive Sequence | https://leetcode.com/problems/longest-consecutive-sequence/ |           |     
 
 ### Intervals
-Summary Ranges
-Solution
-Easy
 
-Merge Intervals
-Solution
-Medium
-
-Insert Interval
-Solution
-Medium
-
-Minimum Number of Arrows to Burst Balloons
-Solution
-Medium
+| Level  | Name                                            | Link                                                                      | Retention |
+|:------:|:------------------------------------------------|:--------------------------------------------------------------------------|:----------|
+|  Easy  | 228. Summary Ranges                             | https://leetcode.com/problems/summary-ranges/                             |           |   
+| Medium | 56. Merge Intervals                             | https://leetcode.com/problems/merge-intervals/                            |           |   
+| Medium | 57. Insert Interval                             | https://leetcode.com/problems/insert-interval/                            |           |   
+| Medium | 452. Minimum Number of Arrows to Burst Balloons | https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/ |           |   
 
 ### Stack
 
-Valid Parentheses
-Solution
-Easy
-
-Simplify Path
-Solution
-Medium
-
-Min Stack
-Solution
-Medium
-
-Evaluate Reverse Polish Notation
-Solution
-Medium
-
-Basic Calculator
-Solution
-Hard
+| Level  | Name                                  | Link                                                            | Retention |
+|:------:|:--------------------------------------|:----------------------------------------------------------------|:----------|
+|  Easy  | 20. Valid Parentheses                 | https://leetcode.com/problems/valid-parentheses/                |           |   
+| Medium | 71. Simplify Path                     | https://leetcode.com/problems/simplify-path/                    |           |   
+| Medium | 155. Min Stack                        | https://leetcode.com/problems/min-stack/                        |           |   
+| Medium | 150. Evaluate Reverse Polish Notation | https://leetcode.com/problems/evaluate-reverse-polish-notation/ |           |   
+|  Hard  | 224. Basic Calculator                 | https://leetcode.com/problems/basic-calculator/                 |           |   
 
 ### Linked List
 
